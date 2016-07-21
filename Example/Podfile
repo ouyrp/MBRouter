@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MBRouter_Example' do
+  pod 'MBRouter', :path => '../'
+
+  target 'MBRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
