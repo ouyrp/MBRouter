@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Routable
+import MBRouter
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Routable.sharedRouter().map("target/:title", toController: MBTargetViewController.classForCoder())
+        Routable.sharedRouter().map("agent/:title", toController: MBAgentViewController.classForCoder(), withOptions: UPRouterOptions.modal().withPresentationStyle(.FullScreen))
+        Routable.sharedRouter().map("web/:title", toController: MBAgentViewController.classForCoder(), withOptions: UPRouterOptions.modal().withPresentationStyle(.FullScreen))
+        
+        if let nav = window?.rootViewController as? UINavigationController {
+            Routable.sharedRouter().navigationController = nav
+        }
+        
+        MBTargetMapper.shareInstance().add("agent", target: "MBRouter_Example.MBTargetViewController")
         return true
     }
 

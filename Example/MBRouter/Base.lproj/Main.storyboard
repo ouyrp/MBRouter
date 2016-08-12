@@ -16,13 +16,117 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id6-K5-f0w">
+                                <rect key="frame" x="10" y="92" width="138" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="hwF-y7-xK6"/>
+                                </constraints>
+                                <state key="normal" title="web"/>
+                                <connections>
+                                    <action selector="webPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tZy-tm-3Tf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91b-Hg-coV">
+                                <rect key="frame" x="158" y="92" width="137" height="44"/>
+                                <state key="normal" title="native"/>
+                                <connections>
+                                    <action selector="nativePressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mXf-tv-jAz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBb-rd-aPV">
+                                <rect key="frame" x="305" y="92" width="138" height="44"/>
+                                <state key="normal" title="agentweb"/>
+                                <connections>
+                                    <action selector="agentwebPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="I1u-GU-Lse"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wby-Ce-Z2R">
+                                <rect key="frame" x="453" y="92" width="137" height="44"/>
+                                <state key="normal" title="agentnative"/>
+                                <connections>
+                                    <action selector="agentnativePressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Cy-Xi-JEG"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IBP-N8-Dua" customClass="MBWebContainer" customModule="MBRouter">
+                                <rect key="frame" x="0.0" y="164" width="600" height="436"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qBb-rd-aPV" firstAttribute="leading" secondItem="91b-Hg-coV" secondAttribute="trailing" constant="10" id="4ft-ii-FGx"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="IBP-N8-Dua" secondAttribute="bottom" id="5Jk-wk-BnT"/>
+                            <constraint firstItem="91b-Hg-coV" firstAttribute="height" secondItem="id6-K5-f0w" secondAttribute="height" id="CHa-ar-mfe"/>
+                            <constraint firstItem="IBP-N8-Dua" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="DHA-yR-Ykh"/>
+                            <constraint firstItem="IBP-N8-Dua" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="GVY-V6-kyu"/>
+                            <constraint firstItem="Wby-Ce-Z2R" firstAttribute="leading" secondItem="qBb-rd-aPV" secondAttribute="trailing" constant="10" id="Gq0-Ve-fcq"/>
+                            <constraint firstAttribute="trailing" secondItem="IBP-N8-Dua" secondAttribute="trailing" id="L0k-cv-HSF"/>
+                            <constraint firstItem="qBb-rd-aPV" firstAttribute="width" secondItem="id6-K5-f0w" secondAttribute="width" id="N1k-r0-Z91"/>
+                            <constraint firstItem="Wby-Ce-Z2R" firstAttribute="width" secondItem="id6-K5-f0w" secondAttribute="width" id="RQn-co-KOh"/>
+                            <constraint firstItem="Wby-Ce-Z2R" firstAttribute="centerY" secondItem="id6-K5-f0w" secondAttribute="centerY" id="Tcs-jG-J2e"/>
+                            <constraint firstItem="91b-Hg-coV" firstAttribute="width" secondItem="id6-K5-f0w" secondAttribute="width" id="ZBN-gu-wK4"/>
+                            <constraint firstItem="91b-Hg-coV" firstAttribute="leading" secondItem="id6-K5-f0w" secondAttribute="trailing" constant="10" id="eXx-qx-DMW"/>
+                            <constraint firstItem="qBb-rd-aPV" firstAttribute="centerY" secondItem="id6-K5-f0w" secondAttribute="centerY" id="fmq-RY-qe5"/>
+                            <constraint firstItem="id6-K5-f0w" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="igO-zg-sv9"/>
+                            <constraint firstItem="91b-Hg-coV" firstAttribute="centerY" secondItem="id6-K5-f0w" secondAttribute="centerY" id="oek-eU-6O1"/>
+                            <constraint firstItem="Wby-Ce-Z2R" firstAttribute="height" secondItem="id6-K5-f0w" secondAttribute="height" id="rSD-OF-tOh"/>
+                            <constraint firstItem="qBb-rd-aPV" firstAttribute="height" secondItem="id6-K5-f0w" secondAttribute="height" id="rml-Hn-PLU"/>
+                            <constraint firstAttribute="trailing" secondItem="Wby-Ce-Z2R" secondAttribute="trailing" constant="10" id="tvx-hV-Qxn"/>
+                            <constraint firstItem="id6-K5-f0w" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="28" id="yW4-Gg-1sc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="J2r-Yu-Xvv"/>
+                    <connections>
+                        <outlet property="webContainer" destination="IBP-N8-Dua" id="ddm-EM-iBH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11" y="230"/>
+            <point key="canvasLocation" x="102" y="7"/>
+        </scene>
+        <!--Target View Controller-->
+        <scene sceneID="hZW-Jh-9In">
+            <objects>
+                <viewController storyboardIdentifier="MBTargetViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4V3-Ga-FIL" customClass="MBTargetViewController" customModule="MBRouter_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JYq-IV-pED"/>
+                        <viewControllerLayoutGuide type="bottom" id="l7B-on-zk0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QfV-2I-qeZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y3a-ci-T2r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="802" y="333"/>
+        </scene>
+        <!--Agent View Controller-->
+        <scene sceneID="6Yl-I3-9Ii">
+            <objects>
+                <viewController storyboardIdentifier="MBAgentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uVP-Qf-O9v" customClass="MBAgentViewController" customModule="MBRouter_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cdb-V4-AXW"/>
+                        <viewControllerLayoutGuide type="bottom" id="sIk-O0-R3a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jb6-dw-ll5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cny-y8-ODe">
+                        <barButtonItem key="leftBarButtonItem" title="关闭" id="uZ6-PP-N8G">
+                            <connections>
+                                <action selector="closePressed:" destination="uVP-Qf-O9v" id="Jwh-1D-ecl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UdB-Pt-UYc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="721"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="M2U-vQ-Abk">
@@ -38,7 +142,23 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LnU-aB-LVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-729" y="230"/>
+            <point key="canvasLocation" x="-700" y="7"/>
+        </scene>
+        <!--Agent Nav View Controller-->
+        <scene sceneID="QYH-JA-9HI">
+            <objects>
+                <navigationController storyboardIdentifier="MBAgentNavViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="05V-11-zfC" customClass="MBAgentNavViewController" customModule="MBRouter_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="akw-QY-2xY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="uVP-Qf-O9v" kind="relationship" relationship="rootViewController" id="0q0-ff-aPq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ix4-ag-tiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-700" y="721"/>
         </scene>
     </scenes>
 </document>

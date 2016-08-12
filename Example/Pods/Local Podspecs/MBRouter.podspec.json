@@ -1,0 +1,30 @@
+{
+  "name": "MBRouter",
+  "version": "0.1.0",
+  "summary": "A short description of MBRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MBRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mmoaay": "mmoaay@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MBRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MBRouter/Classes/**/*",
+  "dependencies": {
+    "Routable": [
+      "~> 0.1.1"
+    ],
+    "Alamofire": [
+      "~> 3.4"
+    ]
+  }
+}

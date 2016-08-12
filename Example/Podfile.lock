@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (3.4.1)
+  - MBRouter (0.1.0):
+    - Alamofire (~> 3.4)
+    - Routable (~> 0.1.1)
+  - Routable (0.1.1)
+
+DEPENDENCIES:
+  - MBRouter (from `../`)
+
+EXTERNAL SOURCES:
+  MBRouter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  MBRouter: 1849ce053e2220031cb45ac63f62775ce7424552
+  Routable: 42731c7757b9b7ad32dd84d988b3d5428b966dfd
+
+COCOAPODS: 0.39.0
