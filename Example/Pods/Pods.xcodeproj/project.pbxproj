@@ -7,171 +7,202 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08699771A231B15FDC320F87C466DE62 /* Pods-MBRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1395DE07977C008436E4C8C492D25D3 /* Pods-MBRouter_Example-dummy.m */; };
-		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3515E01C7AADC23360B9351DF6D51A /* Error.swift */; };
-		1553C98B42F7BA156F8F09C1E0BF3D2F /* Routable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF7EB6A1776529C6CB377D3BFF48A2 /* Routable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C88914E3DA686C1B4EE3BE00B28DD /* Timeline.swift */; };
-		263686EC845E3088F763CD035F6E45CC /* Routable.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF4100C899AD8EE393D2138FC7D017E /* Routable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F64DE1140F8A3777AE9F4BE447B4B6 /* Validation.swift */; };
-		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00665A88A149C25BD1C8D9F314AB3E5F /* NetworkReachabilityManager.swift */; };
-		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0484B41C351E46DBA2B58E1D473CBB0 /* ResponseSerialization.swift */; };
-		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5D87F967C7D16A04AA14D49BE7D80 /* Manager.swift */; };
-		46C379A170E8301FF8F9115E2519F453 /* MBAgentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1165B355DEBF724985C6797DF9972 /* MBAgentable.swift */; };
-		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA20BB2CD9CD324152A0C4F3B2F97DB2 /* Upload.swift */; };
-		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A0C31A1871343B0168DBF6BBCB6A7C /* Download.swift */; };
-		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7050B6E6550488B572EE6F15A932D86 /* Response.swift */; };
-		7776788CF08632517890341A0A6C586A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7615FB2BA445EE4E1762DD9AE7DD3F /* Foundation.framework */; };
-		7B1B0911C74568FB498F2167964E67CA /* Pods-MBRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A27FDD4568E537F5653476EA088BA7C /* Pods-MBRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8044D675BA1AEC949FB4F910F1E8E8B3 /* ServerTrustPolicy.swift */; };
-		8A08D92AC7FFB9A7C153FF5486ECC6B5 /* MBTargetMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECA115D35F93B03032AD43B09DFEB7 /* MBTargetMapper.swift */; };
-		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C88D255C03D360BAC39394F682E8C7 /* Alamofire.swift */; };
-		8F79897040E543B29DA93BDF16D8E270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7615FB2BA445EE4E1762DD9AE7DD3F /* Foundation.framework */; };
-		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14274C2CEC3F6F6517ECDE3A62E618DE /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81923DB88622A6D68323EAAFD72BE73C /* Result.swift */; };
-		AA8E89327E8D2FFB06864885D6144FDB /* MBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2E85F59E299CAE49444F755FCDFE0 /* MBView.swift */; };
-		AD97BAC5F47325337159F2CE7F092CD9 /* Routable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B4E02AA4A20DC473F4152D8C49D7D7 /* Routable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0AA5D50E42890D066B7666604E5620 /* Alamofire-dummy.m */; };
-		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B9AA23B6AB0846EE0F8A530D9A5D3 /* Stream.swift */; };
-		B10424EE6BF2D1FB9F49785B2ABDB441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7615FB2BA445EE4E1762DD9AE7DD3F /* Foundation.framework */; };
-		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DB74C632049DE4E3042F1E8FD38E3D /* Notifications.swift */; };
-		BF2C1F74FEF01FCA087899035311401F /* Routable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4158E32E6C26F7F84E3C918A4B0BE6C6 /* Routable-dummy.m */; };
-		C0475BDDD4DB7678F19826A2A93C1812 /* MBWebable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA7B08EBD678C2ABC1F407176D43CB /* MBWebable.swift */; };
-		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E356B48BE7EA63E6B595CF57BA6D34A /* ParameterEncoding.swift */; };
-		C26D7AD692CD7E68695AA454364E4BE5 /* MBRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B502C179C96D0D395A8620C1D7A56D /* MBRouter-dummy.m */; };
-		C2BAC8F51D5DB5AF0089BB77 /* MBRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAC8F31D5DB4F70089BB77 /* MBRoutable.swift */; };
-		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6BAB9DEC9B7A3DAFF84ABB0022653 /* MultipartFormData.swift */; };
-		E9BFE53F611174C23B608DC72F6F366F /* Routable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7292311A7779A87A362136E180DAD0 /* Routable.framework */; };
-		ECB43100C747A41D3DA34E4F8C4529F3 /* MBRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C14E5C4DFD1B179B0511082940F3996A /* MBRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FED9C9C10FBA17C9E0CCF37E06779A /* Request.swift */; };
-		F23E90FD8421C40764E445A146B5785D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5309FA509B732A2F542A095DCFE75B40 /* Alamofire.framework */; };
-		F82198F34DD14753A42F4328CD5E7A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7615FB2BA445EE4E1762DD9AE7DD3F /* Foundation.framework */; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8809EE33431923BD30A10E775A4AA3 /* Error.swift */; };
+		13FFF8E4F6D2AF9625D8FC21610D3E09 /* MBTargetMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F032122B105EEA056B1D607EBB0522 /* MBTargetMapper.swift */; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8471BD0D4741FE618EDFA1C6380C959 /* Timeline.swift */; };
+		18CE42CF82D07E046BD5E49B677A8545 /* MBRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999F06F723C30A106553FA2D7DCD912 /* MBRoutable.swift */; };
+		213D86A118002629647BDE7BB6DAEAB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A31ABE0A6FE6FDD6FB0E3792B7F560 /* Foundation.framework */; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CE68E7A547CAEC6DE0D8CD3C93E3A7 /* Validation.swift */; };
+		30225BC9B2B417DF281BF11DB723AE63 /* Pods-MBRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A27FDD4568E537F5653476EA088BA7C /* Pods-MBRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3133F7B8A5801BE29ADF5FD179142933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A31ABE0A6FE6FDD6FB0E3792B7F560 /* Foundation.framework */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C2C0043D742CCA5B108AC160F2BEBA /* NetworkReachabilityManager.swift */; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0D886553524B475BC9A87844962BF /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563CA3AEE2F72C73691DE5445A061F5 /* Manager.swift */; };
+		430E535FDEBE92A8B34D07D7C2591CFE /* Routable.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A23FB6A0B51D26BCAAC0F6AE96B60B /* Routable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57D00F1F11EC16E39379E3FF795B8FB7 /* MBAgentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97659F9F21CDBD85F086EFD6E8613F /* MBAgentable.swift */; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5BE0A519B68B183CD7B2B1FCF5E3B /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CB1E35E7903BEA9776EEAD29A07083 /* Download.swift */; };
+		5DEB6CA6B26CDD405AD9C13718392C0A /* Pods-MBRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1395DE07977C008436E4C8C492D25D3 /* Pods-MBRouter_Example-dummy.m */; };
+		5FAD511EFB10A691CC1A8A61ABF2FA17 /* Routable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10B733E4BCE9ECDAEDBA456139617E /* Routable.framework */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6B07C3A0AD1B13883573A5A3E3EBE /* Response.swift */; };
+		71F173282733FE184BBBC8FAD80803C8 /* JLSwiftRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54B95276AE30CE13AD31572723183BC /* JLSwiftRouter.framework */; };
+		73AE95F653B822E491BD592904035392 /* JLSwiftRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453A4E640411BE0B24E7ED375A473D1 /* JLSwiftRouter-dummy.m */; };
+		75D1FFE36241ADD53FA3CED5236A52C5 /* MBRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B502C179C96D0D395A8620C1D7A56D /* MBRouter-dummy.m */; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32CA0E023801C0563671275DB78D899 /* ServerTrustPolicy.swift */; };
+		89A3FA11F4B0630A77934ECE15B2E1C2 /* MBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BED8CCF1767053D4D0118C025FE1D /* MBView.swift */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63029392D02952650EF4885A75B2B654 /* Alamofire.swift */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A78D6D2C3C9BB27688BC345DF2417D /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD0F72EE5EA0A1FC12BF6AF3CE2E797 /* MBRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C14E5C4DFD1B179B0511082940F3996A /* MBRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8539A8DBD8726EBF6E8C78AD7C31D1AB /* Result.swift */; };
+		AD612728276FB2875AD75A90DBE190CF /* MBWebable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8113BB37F4D6A218E0B5BC71D99E09 /* MBWebable.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D23B3B26FD809698C149E233A81E015 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A26D1F845619104BC215532830EBF8 /* Stream.swift */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D972018B9E151229EDA6D53FF0B5BB86 /* Notifications.swift */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD1DB80020086FDA28D88996534D2A /* ParameterEncoding.swift */; };
+		C2BAC8F81D61651E0089BB77 /* MBConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAC8F71D61651E0089BB77 /* MBConfig.swift */; };
+		C34FEC918F4FEDBF132615D7732CA024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A31ABE0A6FE6FDD6FB0E3792B7F560 /* Foundation.framework */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A8E05A99B0E703B2D1D634A38F954 /* MultipartFormData.swift */; };
+		CB47DD4011A551D3FBB59328C81343BA /* Routable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB36A273C87E3F99CC8F46094E2AB21 /* Routable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBDB4CFC6F85BC847EFA7EE4E354216F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A31ABE0A6FE6FDD6FB0E3792B7F560 /* Foundation.framework */; };
+		D0232995F816C30FCF74D2E4F714A0DA /* Routable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B947EAD58E6B317F4BDA7DCF84FD7 /* Routable-dummy.m */; };
+		DA977931A20FFCAAF13E280EFD13338A /* JLSwiftRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2021F45BF0F36A9A89954C774B796CE /* JLSwiftRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECAC5FC12C789D7D84D37CA081BDE424 /* Routable.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD2DFB6DE83153EA0EBECA0A55DCCD8 /* Routable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB67BF57D107B71FDA9CC154E0104F /* Request.swift */; };
+		F82198F34DD14753A42F4328CD5E7A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A31ABE0A6FE6FDD6FB0E3792B7F560 /* Foundation.framework */; };
+		FB518878935573876F7ADB9196779FA2 /* SwiftRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329A943668BD19C3254062E03EAFAAD /* SwiftRouter.swift */; };
+		FD09DFC78467128C2719AAF90E53DE6C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8520C0A584D23199232BAC3D5598A70 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		53648F6BDCDAD343E66F7CDFCDCF3E5B /* PBXContainerItemProxy */ = {
+		1137D79391FECBE04C3470712AB4CF67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 415275BAEAB8934839FFFC70584736CE;
+			remoteGlobalIDString = DF9F195935241C1A29F1E472CCC3265A;
+			remoteInfo = JLSwiftRouter;
+		};
+		1B6D125590FECC68A15FBF881931CF06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F5857A353417C55EFD95FB0128ED9BF;
 			remoteInfo = Routable;
 		};
-		A657DBF040E4FB044EC217F87506E1F4 /* PBXContainerItemProxy */ = {
+		388A36EDB219E18816F5D9557E66892F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF9F195935241C1A29F1E472CCC3265A;
+			remoteInfo = JLSwiftRouter;
+		};
+		40A6F94FE0855E52574119BEB5E3EDCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
 			remoteInfo = Alamofire;
 		};
-		AAD9A4E70B5D4C8817EE641F0DC11ACA /* PBXContainerItemProxy */ = {
+		47DE11A76DADC623C3BD46FE72D96AB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = 7F5857A353417C55EFD95FB0128ED9BF;
+			remoteInfo = Routable;
 		};
-		E8CFDFCDEA4F421FF47E3C86D9E08AFB /* PBXContainerItemProxy */ = {
+		83BE635A4BE7F92B49ED0FF948092021 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D7662800CA7E6B947598B80C31E89D7;
+			remoteGlobalIDString = 72033E1FF3B2B981B56A5470C4623CCD;
 			remoteInfo = MBRouter;
 		};
-		F5C6C8969819F2D6C63259D50C142E71 /* PBXContainerItemProxy */ = {
+		F6E92FC9A692849F63453F43462CDB59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 415275BAEAB8934839FFFC70584736CE;
-			remoteInfo = Routable;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00665A88A149C25BD1C8D9F314AB3E5F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		01DB74C632049DE4E3042F1E8FD38E3D /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		021D9D811613933C1866F17CF7F699BE /* Routable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Routable-prefix.pch"; sourceTree = "<group>"; };
+		0329A943668BD19C3254062E03EAFAAD /* SwiftRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftRouter.swift; path = Source/SwiftRouter.swift; sourceTree = "<group>"; };
+		04A78D6D2C3C9BB27688BC345DF2417D /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		05B9E4E4461740CE9AE32222B27B0678 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06ECA115D35F93B03032AD43B09DFEB7 /* MBTargetMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBTargetMapper.swift; sourceTree = "<group>"; };
-		0E356B48BE7EA63E6B595CF57BA6D34A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		14274C2CEC3F6F6517ECDE3A62E618DE /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		18FF7EB6A1776529C6CB377D3BFF48A2 /* Routable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Routable.m; path = Routable/Routable.m; sourceTree = "<group>"; };
+		0600D31D04AC14480C8CFD306BF8B16B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A23C75C47D9ED52B0819513E66AF5BE /* Pods-MBRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MBRouter_Example.modulemap"; sourceTree = "<group>"; };
-		1AAA7B08EBD678C2ABC1F407176D43CB /* MBWebable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBWebable.swift; sourceTree = "<group>"; };
+		1A8809EE33431923BD30A10E775A4AA3 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
 		1B854CBFD124A610B4EBCF13DF2EC95E /* MBRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBRouter.modulemap; sourceTree = "<group>"; };
-		1C16109638A6E874C8C104C28FA15267 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FDDEB221F0B5FBE1E6C1555CBB21087 /* Routable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Routable.modulemap; sourceTree = "<group>"; };
 		21CFCA7D6E09A9AA0A541F7D2C2317AF /* Pods-MBRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		27F64DE1140F8A3777AE9F4BE447B4B6 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		2BE6F46D5B0B3CD890024F11ED75ACC3 /* Routable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Routable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD5BE0A519B68B183CD7B2B1FCF5E3B /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		3453A4E640411BE0B24E7ED375A473D1 /* JLSwiftRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLSwiftRouter-dummy.m"; sourceTree = "<group>"; };
 		36B502C179C96D0D395A8620C1D7A56D /* MBRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBRouter-dummy.m"; sourceTree = "<group>"; };
+		36F6B07C3A0AD1B13883573A5A3E3EBE /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		39901D21FCD95739372CA4D753D12E24 /* Pods-MBRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3999F06F723C30A106553FA2D7DCD912 /* MBRoutable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBRoutable.swift; sourceTree = "<group>"; };
 		3A27FDD4568E537F5653476EA088BA7C /* Pods-MBRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBRouter_Example-umbrella.h"; sourceTree = "<group>"; };
-		3EF1165B355DEBF724985C6797DF9972 /* MBAgentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBAgentable.swift; sourceTree = "<group>"; };
-		4158E32E6C26F7F84E3C918A4B0BE6C6 /* Routable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Routable-dummy.m"; sourceTree = "<group>"; };
-		48B287A4D8FE20A6E3A3483EC4CFAB93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5309FA509B732A2F542A095DCFE75B40 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6B947EAD58E6B317F4BDA7DCF84FD7 /* Routable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Routable-dummy.m"; sourceTree = "<group>"; };
+		3D23B3B26FD809698C149E233A81E015 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		43CD1DB80020086FDA28D88996534D2A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		44913D0C5FA0B522C97F13F57DDD8D29 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		4730DA1C495CD4257596407CEA8EF05F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C81ACF879974851E1D98410E58009DA /* JLSwiftRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLSwiftRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E86F9C104B1698342CC943DC1EB8CE8 /* JLSwiftRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLSwiftRouter-prefix.pch"; sourceTree = "<group>"; };
+		4F5CE2ACE4AB428A1B8EDFD7F30F55B6 /* Routable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Routable.xcconfig; sourceTree = "<group>"; };
+		546113E84FFC667E48EE1D2DA03F05D5 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		56BBECE7F7FDC7A07073939A6491C5F3 /* MBRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBRouter-prefix.pch"; sourceTree = "<group>"; };
-		5FD5D87F967C7D16A04AA14D49BE7D80 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		70C88D255C03D360BAC39394F682E8C7 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		7B0AA5D50E42890D066B7666604E5620 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		8044D675BA1AEC949FB4F910F1E8E8B3 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		80A0C31A1871343B0168DBF6BBCB6A7C /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		81923DB88622A6D68323EAAFD72BE73C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		81B4E02AA4A20DC473F4152D8C49D7D7 /* Routable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Routable-umbrella.h"; sourceTree = "<group>"; };
+		63029392D02952650EF4885A75B2B654 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		67B0D886553524B475BC9A87844962BF /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		698B15FEE7D2FCB330E42F4B26EDA6E2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		726D69AF0B8A96AE739BDCBDFEFA2F4A /* Pods_MBRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7837BC8719ADBE456BD0C9C7B638198B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842C5B2FE5CA6E4906D8C3223AD69F7B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		8539A8DBD8726EBF6E8C78AD7C31D1AB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		85477E576C2561048C1BAA9F49A0ECE2 /* JLSwiftRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLSwiftRouter.xcconfig; sourceTree = "<group>"; };
+		8A10B733E4BCE9ECDAEDBA456139617E /* Routable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Routable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F032122B105EEA056B1D607EBB0522 /* MBTargetMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBTargetMapper.swift; sourceTree = "<group>"; };
 		950F3736319251F15854B6925053CEBB /* Pods-MBRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9563CA3AEE2F72C73691DE5445A061F5 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		97CB1E35E7903BEA9776EEAD29A07083 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
 		99E762E0E122790EFE5837FF254F4D34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BF95F73483B20E93F4D25D52B1D7A3C /* Routable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Routable.xcconfig; sourceTree = "<group>"; };
-		9F34594FDB95FADC1608FC1ED4DBF78D /* Routable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Routable-prefix.pch"; sourceTree = "<group>"; };
+		9AB36A273C87E3F99CC8F46094E2AB21 /* Routable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Routable-umbrella.h"; sourceTree = "<group>"; };
 		A1395DE07977C008436E4C8C492D25D3 /* Pods-MBRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBRouter_Example-dummy.m"; sourceTree = "<group>"; };
-		A80078096D7ADD9B1909F9F3C429E1AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB0B9AA23B6AB0846EE0F8A530D9A5D3 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		B137647738896AE52BCE003432C41548 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		A32CA0E023801C0563671275DB78D899 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		A7CE68E7A547CAEC6DE0D8CD3C93E3A7 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		AABB67BF57D107B71FDA9CC154E0104F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		AF97659F9F21CDBD85F086EFD6E8613F /* MBAgentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBAgentable.swift; sourceTree = "<group>"; };
+		B4A31ABE0A6FE6FDD6FB0E3792B7F560 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B54B95276AE30CE13AD31572723183BC /* JLSwiftRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLSwiftRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C2C0043D742CCA5B108AC160F2BEBA /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		B9A26D1F845619104BC215532830EBF8 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA6C88914E3DA686C1B4EE3BE00B28DD /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		BB7A0870720485FB2615087C37B9E55F /* Pods_MBRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC7615FB2BA445EE4E1762DD9AE7DD3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C06894BA1F558A366A98D45472D4390B /* Routable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Routable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD2DFB6DE83153EA0EBECA0A55DCCD8 /* Routable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Routable.h; path = Routable/Routable.h; sourceTree = "<group>"; };
 		C14E5C4DFD1B179B0511082940F3996A /* MBRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBRouter-umbrella.h"; sourceTree = "<group>"; };
-		C2BAC8F31D5DB4F70089BB77 /* MBRoutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBRoutable.swift; sourceTree = "<group>"; };
-		C5FB38C3D7482369754A9B2932959C29 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		C2BAC8F71D61651E0089BB77 /* MBConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBConfig.swift; sourceTree = "<group>"; };
+		C3A23FB6A0B51D26BCAAC0F6AE96B60B /* Routable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Routable.m; path = Routable/Routable.m; sourceTree = "<group>"; };
+		C47BED8CCF1767053D4D0118C025FE1D /* MBView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBView.swift; sourceTree = "<group>"; };
 		C66B08CE14149BDBF2AF3049EA204F76 /* Pods-MBRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6FED9C9C10FBA17C9E0CCF37E06779A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		C8520C0A584D23199232BAC3D5598A70 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8113BB37F4D6A218E0B5BC71D99E09 /* MBWebable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBWebable.swift; sourceTree = "<group>"; };
+		CAB3E5B7F2698C06481C5AFFB2FDC500 /* Routable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Routable.modulemap; sourceTree = "<group>"; };
 		CD6D84FF892CD1FB25A1ED0063A02D6B /* Pods-MBRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D6A6BAB9DEC9B7A3DAFF84ABB0022653 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		D7050B6E6550488B572EE6F15A932D86 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		DD3515E01C7AADC23360B9351DF6D51A /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		DE7292311A7779A87A362136E180DAD0 /* Routable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Routable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0484B41C351E46DBA2B58E1D473CBB0 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D972018B9E151229EDA6D53FF0B5BB86 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		DA120C76D4C3837D1F3A8E91CE29B9DF /* JLSwiftRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLSwiftRouter.modulemap; sourceTree = "<group>"; };
+		DF7111C521C68F284A7FADE7B84896A6 /* MBRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2021F45BF0F36A9A89954C774B796CE /* JLSwiftRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLSwiftRouter-umbrella.h"; sourceTree = "<group>"; };
+		E8471BD0D4741FE618EDFA1C6380C959 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		E9DAA4D7B6F85EEF74AF08ADAA70A74A /* MBRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBRouter.xcconfig; sourceTree = "<group>"; };
-		EA20BB2CD9CD324152A0C4F3B2F97DB2 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
 		EF7F74B577369AE92E1BC4F61241CD8A /* Pods-MBRouter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBRouter_Example-resources.sh"; sourceTree = "<group>"; };
-		F3A2E85F59E299CAE49444F755FCDFE0 /* MBView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBView.swift; sourceTree = "<group>"; };
-		F47E4C82F24D18178221CF87EF39F547 /* MBRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4B60675D4148AC2363F0E1107BA53B9 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		FFF4100C899AD8EE393D2138FC7D017E /* Routable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Routable.h; path = Routable/Routable.h; sourceTree = "<group>"; };
+		FB8A8E05A99B0E703B2D1D634A38F954 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A33ED0A53647994574C372C13EE57C5 /* Frameworks */ = {
+		24DD9C5C4C3F641F91538EA58B29EE07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10424EE6BF2D1FB9F49785B2ABDB441 /* Foundation.framework in Frameworks */,
+				FD09DFC78467128C2719AAF90E53DE6C /* Alamofire.framework in Frameworks */,
+				213D86A118002629647BDE7BB6DAEAB8 /* Foundation.framework in Frameworks */,
+				71F173282733FE184BBBC8FAD80803C8 /* JLSwiftRouter.framework in Frameworks */,
+				5FAD511EFB10A691CC1A8A61ABF2FA17 /* Routable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26D7C19C545733E03036FADB76C4E469 /* Frameworks */ = {
+		6D15C4C07AD6841C7AB01B57604C1131 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F23E90FD8421C40764E445A146B5785D /* Alamofire.framework in Frameworks */,
-				8F79897040E543B29DA93BDF16D8E270 /* Foundation.framework in Frameworks */,
-				E9BFE53F611174C23B608DC72F6F366F /* Routable.framework in Frameworks */,
+				C34FEC918F4FEDBF132615D7732CA024 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DCDA5C9BB0134F95FFA9381D375FADE /* Frameworks */ = {
+		A89F0F37D32C9DBA604BC74D79E79604 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7776788CF08632517890341A0A6C586A /* Foundation.framework in Frameworks */,
+				CBDB4CFC6F85BC847EFA7EE4E354216F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,19 +214,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3051CDFE9C4BC7220E419369FEC0802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3133F7B8A5801BE29ADF5FD179142933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00DBED51E9FC8C6E80813A240BCE7113 /* Classes */ = {
+		06C5D52F7CEFED2B9659F9BB2BDB37FB /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				C2BAC8F21D5DB4DD0089BB77 /* Route */,
-				8FCC4DE8FF78CDD7090CF5748D923DB0 /* Agent */,
-				66D0E455F3A5251129F6B353204B1987 /* Target */,
-				AF82AF152AF2CC2B0C0034717FE16992 /* View */,
-				A62AC15D08779958D9EE35BB094E15C9 /* Web */,
+				93F032122B105EEA056B1D607EBB0522 /* MBTargetMapper.swift */,
 			);
-			path = Classes;
+			path = Target;
+			sourceTree = "<group>";
+		};
+		10DCDFD940CA89A8958600DC17D5595B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7837BC8719ADBE456BD0C9C7B638198B /* Info.plist */,
+				DA120C76D4C3837D1F3A8E91CE29B9DF /* JLSwiftRouter.modulemap */,
+				85477E576C2561048C1BAA9F49A0ECE2 /* JLSwiftRouter.xcconfig */,
+				3453A4E640411BE0B24E7ED375A473D1 /* JLSwiftRouter-dummy.m */,
+				4E86F9C104B1698342CC943DC1EB8CE8 /* JLSwiftRouter-prefix.pch */,
+				E2021F45BF0F36A9A89954C774B796CE /* JLSwiftRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JLSwiftRouter";
 			sourceTree = "<group>";
 		};
 		3B87B8F0B54DD375BDA6E6A4322F90A0 /* Support Files */ = {
@@ -212,26 +261,77 @@
 			path = "Example/Pods/Target Support Files/MBRouter";
 			sourceTree = "<group>";
 		};
-		526A6839B2368F4AD99F8FDEFC7B7A5A /* Support Files */ = {
+		48DF63407A66EA9D86A1114119C57A2C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				48B287A4D8FE20A6E3A3483EC4CFAB93 /* Info.plist */,
-				1FDDEB221F0B5FBE1E6C1555CBB21087 /* Routable.modulemap */,
-				9BF95F73483B20E93F4D25D52B1D7A3C /* Routable.xcconfig */,
-				4158E32E6C26F7F84E3C918A4B0BE6C6 /* Routable-dummy.m */,
-				9F34594FDB95FADC1608FC1ED4DBF78D /* Routable-prefix.pch */,
-				81B4E02AA4A20DC473F4152D8C49D7D7 /* Routable-umbrella.h */,
+				C2BAC8F61D6165020089BB77 /* config */,
+				DD8852FA6C0C056AFDE74469821F5BAA /* Agent */,
+				B218139C746B3B25572D8B967DD3DCD3 /* Route */,
+				06C5D52F7CEFED2B9659F9BB2BDB37FB /* Target */,
+				D3D690092F0D9041A1B57A5DD69A288E /* View */,
+				A1024D56667043A15A9C7EF94B89D30E /* Web */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		49A3D6770C095652ADC11953D49397B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A678F71817E3F0520BEB328BC6C27 /* Alamofire */,
+				92ACD49C841F9ADE7EB0244B4E9742E5 /* JLSwiftRouter */,
+				4E83B0961E7587BD105F789A6424A36C /* Routable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E83B0961E7587BD105F789A6424A36C /* Routable */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2DFB6DE83153EA0EBECA0A55DCCD8 /* Routable.h */,
+				C3A23FB6A0B51D26BCAAC0F6AE96B60B /* Routable.m */,
+				587DA74D72DDA6B78823AAE80E12A59C /* Support Files */,
+			);
+			path = Routable;
+			sourceTree = "<group>";
+		};
+		587DA74D72DDA6B78823AAE80E12A59C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0600D31D04AC14480C8CFD306BF8B16B /* Info.plist */,
+				CAB3E5B7F2698C06481C5AFFB2FDC500 /* Routable.modulemap */,
+				4F5CE2ACE4AB428A1B8EDFD7F30F55B6 /* Routable.xcconfig */,
+				3C6B947EAD58E6B317F4BDA7DCF84FD7 /* Routable-dummy.m */,
+				021D9D811613933C1866F17CF7F699BE /* Routable-prefix.pch */,
+				9AB36A273C87E3F99CC8F46094E2AB21 /* Routable-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Routable";
 			sourceTree = "<group>";
 		};
-		66D0E455F3A5251129F6B353204B1987 /* Target */ = {
+		68240F7EE36F2E000D1FF322B3E79D74 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				06ECA115D35F93B03032AD43B09DFEB7 /* MBTargetMapper.swift */,
+				546113E84FFC667E48EE1D2DA03F05D5 /* Alamofire.modulemap */,
+				44913D0C5FA0B522C97F13F57DDD8D29 /* Alamofire.xcconfig */,
+				3D23B3B26FD809698C149E233A81E015 /* Alamofire-dummy.m */,
+				842C5B2FE5CA6E4906D8C3223AD69F7B /* Alamofire-prefix.pch */,
+				04A78D6D2C3C9BB27688BC345DF2417D /* Alamofire-umbrella.h */,
+				4730DA1C495CD4257596407CEA8EF05F /* Info.plist */,
 			);
-			path = Target;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		6A05C2B07699C4F1928E2DDDD3C9361F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				698B15FEE7D2FCB330E42F4B26EDA6E2 /* Alamofire.framework */,
+				4C81ACF879974851E1D98410E58009DA /* JLSwiftRouter.framework */,
+				DF7111C521C68F284A7FADE7B84896A6 /* MBRouter.framework */,
+				726D69AF0B8A96AE739BDCBDFEFA2F4A /* Pods_MBRouter_Example.framework */,
+				2BE6F46D5B0B3CD890024F11ED75ACC3 /* Routable.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -239,45 +339,28 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				9CDC2826F3D879878BD2BE61EB10B4A2 /* Development Pods */,
-				E65735249F384E84F8B14BC4E20B1250 /* Frameworks */,
-				B05631D486634244E297442CFCAAF2A0 /* Pods */,
-				C61C5878EA608A7F69AF8A15AE58400B /* Products */,
+				ECFADDDFAC4F0E898F1C062BA7D4D34A /* Frameworks */,
+				49A3D6770C095652ADC11953D49397B3 /* Pods */,
+				6A05C2B07699C4F1928E2DDDD3C9361F /* Products */,
 				DFBAD2CBC95999628F9DAD1735C8866F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8245A263664F98B441D7983426ECCF28 /* iOS */ = {
+		8D1A6C1945B2E22B98DFBED6078285F7 /* MBRouter */ = {
 			isa = PBXGroup;
 			children = (
-				BC7615FB2BA445EE4E1762DD9AE7DD3F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		82D5EF18AF614FA6A01AB3801D7489D1 /* Routable */ = {
-			isa = PBXGroup;
-			children = (
-				FFF4100C899AD8EE393D2138FC7D017E /* Routable.h */,
-				18FF7EB6A1776529C6CB377D3BFF48A2 /* Routable.m */,
-				526A6839B2368F4AD99F8FDEFC7B7A5A /* Support Files */,
-			);
-			path = Routable;
-			sourceTree = "<group>";
-		};
-		8550E79E8076F0F62AD4F2E87B22B9E1 /* MBRouter */ = {
-			isa = PBXGroup;
-			children = (
-				00DBED51E9FC8C6E80813A240BCE7113 /* Classes */,
+				48DF63407A66EA9D86A1114119C57A2C /* Classes */,
 			);
 			path = MBRouter;
 			sourceTree = "<group>";
 		};
-		8FCC4DE8FF78CDD7090CF5748D923DB0 /* Agent */ = {
+		92ACD49C841F9ADE7EB0244B4E9742E5 /* JLSwiftRouter */ = {
 			isa = PBXGroup;
 			children = (
-				3EF1165B355DEBF724985C6797DF9972 /* MBAgentable.swift */,
+				0329A943668BD19C3254062E03EAFAAD /* SwiftRouter.swift */,
+				10DCDFD940CA89A8958600DC17D5595B /* Support Files */,
 			);
-			path = Agent;
+			path = JLSwiftRouter;
 			sourceTree = "<group>";
 		};
 		96470D09A926D502748A3D199F343040 /* Pods-MBRouter_Example */ = {
@@ -309,69 +392,76 @@
 		9E16A818615E5D247994A6DA7878C4A4 /* MBRouter */ = {
 			isa = PBXGroup;
 			children = (
-				8550E79E8076F0F62AD4F2E87B22B9E1 /* MBRouter */,
+				8D1A6C1945B2E22B98DFBED6078285F7 /* MBRouter */,
 				3B87B8F0B54DD375BDA6E6A4322F90A0 /* Support Files */,
 			);
 			name = MBRouter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		A62AC15D08779958D9EE35BB094E15C9 /* Web */ = {
+		A1024D56667043A15A9C7EF94B89D30E /* Web */ = {
 			isa = PBXGroup;
 			children = (
-				1AAA7B08EBD678C2ABC1F407176D43CB /* MBWebable.swift */,
+				CA8113BB37F4D6A218E0B5BC71D99E09 /* MBWebable.swift */,
 			);
 			path = Web;
 			sourceTree = "<group>";
 		};
-		AF82AF152AF2CC2B0C0034717FE16992 /* View */ = {
+		B218139C746B3B25572D8B967DD3DCD3 /* Route */ = {
 			isa = PBXGroup;
 			children = (
-				F3A2E85F59E299CAE49444F755FCDFE0 /* MBView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B05631D486634244E297442CFCAAF2A0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ED234B9A71B0E1D19EEFD7E278C2851F /* Alamofire */,
-				82D5EF18AF614FA6A01AB3801D7489D1 /* Routable */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B5BC166C69C3E5E84F487B585A82CADA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C5FB38C3D7482369754A9B2932959C29 /* Alamofire.modulemap */,
-				B137647738896AE52BCE003432C41548 /* Alamofire.xcconfig */,
-				7B0AA5D50E42890D066B7666604E5620 /* Alamofire-dummy.m */,
-				F4B60675D4148AC2363F0E1107BA53B9 /* Alamofire-prefix.pch */,
-				14274C2CEC3F6F6517ECDE3A62E618DE /* Alamofire-umbrella.h */,
-				A80078096D7ADD9B1909F9F3C429E1AD /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		C2BAC8F21D5DB4DD0089BB77 /* Route */ = {
-			isa = PBXGroup;
-			children = (
-				C2BAC8F31D5DB4F70089BB77 /* MBRoutable.swift */,
+				3999F06F723C30A106553FA2D7DCD912 /* MBRoutable.swift */,
 			);
 			path = Route;
 			sourceTree = "<group>";
 		};
-		C61C5878EA608A7F69AF8A15AE58400B /* Products */ = {
+		BC9A678F71817E3F0520BEB328BC6C27 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				1C16109638A6E874C8C104C28FA15267 /* Alamofire.framework */,
-				F47E4C82F24D18178221CF87EF39F547 /* MBRouter.framework */,
-				BB7A0870720485FB2615087C37B9E55F /* Pods_MBRouter_Example.framework */,
-				C06894BA1F558A366A98D45472D4390B /* Routable.framework */,
+				63029392D02952650EF4885A75B2B654 /* Alamofire.swift */,
+				97CB1E35E7903BEA9776EEAD29A07083 /* Download.swift */,
+				1A8809EE33431923BD30A10E775A4AA3 /* Error.swift */,
+				9563CA3AEE2F72C73691DE5445A061F5 /* Manager.swift */,
+				FB8A8E05A99B0E703B2D1D634A38F954 /* MultipartFormData.swift */,
+				B7C2C0043D742CCA5B108AC160F2BEBA /* NetworkReachabilityManager.swift */,
+				D972018B9E151229EDA6D53FF0B5BB86 /* Notifications.swift */,
+				43CD1DB80020086FDA28D88996534D2A /* ParameterEncoding.swift */,
+				AABB67BF57D107B71FDA9CC154E0104F /* Request.swift */,
+				36F6B07C3A0AD1B13883573A5A3E3EBE /* Response.swift */,
+				67B0D886553524B475BC9A87844962BF /* ResponseSerialization.swift */,
+				8539A8DBD8726EBF6E8C78AD7C31D1AB /* Result.swift */,
+				A32CA0E023801C0563671275DB78D899 /* ServerTrustPolicy.swift */,
+				B9A26D1F845619104BC215532830EBF8 /* Stream.swift */,
+				E8471BD0D4741FE618EDFA1C6380C959 /* Timeline.swift */,
+				2FD5BE0A519B68B183CD7B2B1FCF5E3B /* Upload.swift */,
+				A7CE68E7A547CAEC6DE0D8CD3C93E3A7 /* Validation.swift */,
+				68240F7EE36F2E000D1FF322B3E79D74 /* Support Files */,
 			);
-			name = Products;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		C2BAC8F61D6165020089BB77 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC8F71D61651E0089BB77 /* MBConfig.swift */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		D3D690092F0D9041A1B57A5DD69A288E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C47BED8CCF1767053D4D0118C025FE1D /* MBView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD8852FA6C0C056AFDE74469821F5BAA /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				AF97659F9F21CDBD85F086EFD6E8613F /* MBAgentable.swift */,
+			);
+			path = Agent;
 			sourceTree = "<group>";
 		};
 		DFBAD2CBC95999628F9DAD1735C8866F /* Targets Support Files */ = {
@@ -382,66 +472,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E65735249F384E84F8B14BC4E20B1250 /* Frameworks */ = {
+		ECFADDDFAC4F0E898F1C062BA7D4D34A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5309FA509B732A2F542A095DCFE75B40 /* Alamofire.framework */,
-				DE7292311A7779A87A362136E180DAD0 /* Routable.framework */,
-				8245A263664F98B441D7983426ECCF28 /* iOS */,
+				C8520C0A584D23199232BAC3D5598A70 /* Alamofire.framework */,
+				B54B95276AE30CE13AD31572723183BC /* JLSwiftRouter.framework */,
+				8A10B733E4BCE9ECDAEDBA456139617E /* Routable.framework */,
+				FA145C4601841DA50D8C0D325DFAEA01 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ED234B9A71B0E1D19EEFD7E278C2851F /* Alamofire */ = {
+		FA145C4601841DA50D8C0D325DFAEA01 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				70C88D255C03D360BAC39394F682E8C7 /* Alamofire.swift */,
-				80A0C31A1871343B0168DBF6BBCB6A7C /* Download.swift */,
-				DD3515E01C7AADC23360B9351DF6D51A /* Error.swift */,
-				5FD5D87F967C7D16A04AA14D49BE7D80 /* Manager.swift */,
-				D6A6BAB9DEC9B7A3DAFF84ABB0022653 /* MultipartFormData.swift */,
-				00665A88A149C25BD1C8D9F314AB3E5F /* NetworkReachabilityManager.swift */,
-				01DB74C632049DE4E3042F1E8FD38E3D /* Notifications.swift */,
-				0E356B48BE7EA63E6B595CF57BA6D34A /* ParameterEncoding.swift */,
-				C6FED9C9C10FBA17C9E0CCF37E06779A /* Request.swift */,
-				D7050B6E6550488B572EE6F15A932D86 /* Response.swift */,
-				E0484B41C351E46DBA2B58E1D473CBB0 /* ResponseSerialization.swift */,
-				81923DB88622A6D68323EAAFD72BE73C /* Result.swift */,
-				8044D675BA1AEC949FB4F910F1E8E8B3 /* ServerTrustPolicy.swift */,
-				AB0B9AA23B6AB0846EE0F8A530D9A5D3 /* Stream.swift */,
-				BA6C88914E3DA686C1B4EE3BE00B28DD /* Timeline.swift */,
-				EA20BB2CD9CD324152A0C4F3B2F97DB2 /* Upload.swift */,
-				27F64DE1140F8A3777AE9F4BE447B4B6 /* Validation.swift */,
-				B5BC166C69C3E5E84F487B585A82CADA /* Support Files */,
+				B4A31ABE0A6FE6FDD6FB0E3792B7F560 /* Foundation.framework */,
 			);
-			path = Alamofire;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4B6CC19802FD1BEF2C85BD90085EC463 /* Headers */ = {
+		11E1A3F7A17E4F9D0485DBF6CDF963C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD97BAC5F47325337159F2CE7F092CD9 /* Routable-umbrella.h in Headers */,
-				263686EC845E3088F763CD035F6E45CC /* Routable.h in Headers */,
+				CB47DD4011A551D3FBB59328C81343BA /* Routable-umbrella.h in Headers */,
+				ECAC5FC12C789D7D84D37CA081BDE424 /* Routable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B41651549C9E2FDF1F7A983BB9589B49 /* Headers */ = {
+		1E65ADD82CF2C7B6C55E222BDE5F308A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB43100C747A41D3DA34E4F8C4529F3 /* MBRouter-umbrella.h in Headers */,
+				30225BC9B2B417DF281BF11DB723AE63 /* Pods-MBRouter_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C714E8A0E84F9884E793B415FA04F5BE /* Headers */ = {
+		78DD0F86AC015A50F361624228908EA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B1B0911C74568FB498F2167964E67CA /* Pods-MBRouter_Example-umbrella.h in Headers */,
+				DA977931A20FFCAAF13E280EFD13338A /* JLSwiftRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800E152B385F85BBC9A7AAD958E346C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD0F72EE5EA0A1FC12BF6AF3CE2E797 /* MBRouter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,40 +538,45 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		415275BAEAB8934839FFFC70584736CE /* Routable */ = {
+		47388F75634E0745CEA54605205AA105 /* Pods-MBRouter_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 954A8F5BCC481E8BD31CDFD0C17BB248 /* Build configuration list for PBXNativeTarget "Routable" */;
+			buildConfigurationList = 8E66FE65AB22B56A26498796022D7372 /* Build configuration list for PBXNativeTarget "Pods-MBRouter_Example" */;
 			buildPhases = (
-				FA36A06E6AA6CE8390933B2B91677E9F /* Sources */,
-				7DCDA5C9BB0134F95FFA9381D375FADE /* Frameworks */,
-				4B6CC19802FD1BEF2C85BD90085EC463 /* Headers */,
+				4255FAFB10DE6DE45048C597142CE050 /* Sources */,
+				A89F0F37D32C9DBA604BC74D79E79604 /* Frameworks */,
+				1E65ADD82CF2C7B6C55E222BDE5F308A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CAB5EFFE61823DB3966615A22EFF620A /* PBXTargetDependency */,
+				8A746EC128D2E5DC761DA3B50C093B93 /* PBXTargetDependency */,
+				C92D31778CAC9C20E2286E74506125AD /* PBXTargetDependency */,
+				F73425B6591CE93879FD9231CC77C969 /* PBXTargetDependency */,
 			);
-			name = Routable;
-			productName = Routable;
-			productReference = C06894BA1F558A366A98D45472D4390B /* Routable.framework */;
+			name = "Pods-MBRouter_Example";
+			productName = "Pods-MBRouter_Example";
+			productReference = 726D69AF0B8A96AE739BDCBDFEFA2F4A /* Pods_MBRouter_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5D7662800CA7E6B947598B80C31E89D7 /* MBRouter */ = {
+		72033E1FF3B2B981B56A5470C4623CCD /* MBRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 768293668A10BC8E9CBAEA68B2F6E0CA /* Build configuration list for PBXNativeTarget "MBRouter" */;
+			buildConfigurationList = A79D212DE331B685F161F896B90BD1F5 /* Build configuration list for PBXNativeTarget "MBRouter" */;
 			buildPhases = (
-				F664C8D78B0927F0455FD56732C0758E /* Sources */,
-				26D7C19C545733E03036FADB76C4E469 /* Frameworks */,
-				B41651549C9E2FDF1F7A983BB9589B49 /* Headers */,
+				9A7E594ED3C988C1961251CB50758201 /* Sources */,
+				24DD9C5C4C3F641F91538EA58B29EE07 /* Frameworks */,
+				800E152B385F85BBC9A7AAD958E346C5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AC8805304EE8AC1F08714E8E2966B417 /* PBXTargetDependency */,
-				DD3ABF12B5EBF00DBA5662EC9C7D8A22 /* PBXTargetDependency */,
+				0109BCAFD0BC983AD95610AA04B3E8B7 /* PBXTargetDependency */,
+				6333066B2101144145A7FC56A84A951F /* PBXTargetDependency */,
+				CDC9E6D4F3BEE1ACB3832E15816E4E2D /* PBXTargetDependency */,
 			);
 			name = MBRouter;
 			productName = MBRouter;
-			productReference = F47E4C82F24D18178221CF87EF39F547 /* MBRouter.framework */;
+			productReference = DF7111C521C68F284A7FADE7B84896A6 /* MBRouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
@@ -506,27 +593,41 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 1C16109638A6E874C8C104C28FA15267 /* Alamofire.framework */;
+			productReference = 698B15FEE7D2FCB330E42F4B26EDA6E2 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C4FA9835D3126BEBEEBBBABA65C87AA3 /* Pods-MBRouter_Example */ = {
+		7F5857A353417C55EFD95FB0128ED9BF /* Routable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87444147DEC81F2F92926D43E41310FC /* Build configuration list for PBXNativeTarget "Pods-MBRouter_Example" */;
+			buildConfigurationList = 6CD9B3B85FBE934F0CE530D23D4E740B /* Build configuration list for PBXNativeTarget "Routable" */;
 			buildPhases = (
-				91294C71AA8588ED87D0156F4B38F333 /* Sources */,
-				0A33ED0A53647994574C372C13EE57C5 /* Frameworks */,
-				C714E8A0E84F9884E793B415FA04F5BE /* Headers */,
+				2E980817376DC8B6CE61E48690385141 /* Sources */,
+				D3051CDFE9C4BC7220E419369FEC0802 /* Frameworks */,
+				11E1A3F7A17E4F9D0485DBF6CDF963C0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C2AF8840E74C6FA889B69297CAC080EC /* PBXTargetDependency */,
-				FD7DFB71EB8AE8A627E0DD6F3E1BAB7F /* PBXTargetDependency */,
-				CB144A46F12101EF2A337F35413C4E90 /* PBXTargetDependency */,
 			);
-			name = "Pods-MBRouter_Example";
-			productName = "Pods-MBRouter_Example";
-			productReference = BB7A0870720485FB2615087C37B9E55F /* Pods_MBRouter_Example.framework */;
+			name = Routable;
+			productName = Routable;
+			productReference = 2BE6F46D5B0B3CD890024F11ED75ACC3 /* Routable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF9F195935241C1A29F1E472CCC3265A /* JLSwiftRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A067F2C0934EB002B713ED76AF3085 /* Build configuration list for PBXNativeTarget "JLSwiftRouter" */;
+			buildPhases = (
+				32A9E94F7E91EBA60ACBB68796894D4D /* Sources */,
+				6D15C4C07AD6841C7AB01B57604C1131 /* Frameworks */,
+				78DD0F86AC015A50F361624228908EA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLSwiftRouter;
+			productName = JLSwiftRouter;
+			productReference = 4C81ACF879974851E1D98410E58009DA /* JLSwiftRouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -546,24 +647,43 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C61C5878EA608A7F69AF8A15AE58400B /* Products */;
+			productRefGroup = 6A05C2B07699C4F1928E2DDDD3C9361F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
-				5D7662800CA7E6B947598B80C31E89D7 /* MBRouter */,
-				C4FA9835D3126BEBEEBBBABA65C87AA3 /* Pods-MBRouter_Example */,
-				415275BAEAB8934839FFFC70584736CE /* Routable */,
+				DF9F195935241C1A29F1E472CCC3265A /* JLSwiftRouter */,
+				72033E1FF3B2B981B56A5470C4623CCD /* MBRouter */,
+				47388F75634E0745CEA54605205AA105 /* Pods-MBRouter_Example */,
+				7F5857A353417C55EFD95FB0128ED9BF /* Routable */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		91294C71AA8588ED87D0156F4B38F333 /* Sources */ = {
+		2E980817376DC8B6CE61E48690385141 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08699771A231B15FDC320F87C466DE62 /* Pods-MBRouter_Example-dummy.m in Sources */,
+				D0232995F816C30FCF74D2E4F714A0DA /* Routable-dummy.m in Sources */,
+				430E535FDEBE92A8B34D07D7C2591CFE /* Routable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A9E94F7E91EBA60ACBB68796894D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AE95F653B822E491BD592904035392 /* JLSwiftRouter-dummy.m in Sources */,
+				FB518878935573876F7ADB9196779FA2 /* SwiftRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4255FAFB10DE6DE45048C597142CE050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEB6CA6B26CDD405AD9C13718392C0A /* Pods-MBRouter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +703,7 @@
 				EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */,
 				62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */,
 				3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */,
+				C2BAC8F81D61651E0089BB77 /* MBConfig.swift in Sources */,
 				AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */,
 				7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */,
 				AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */,
@@ -592,60 +713,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F664C8D78B0927F0455FD56732C0758E /* Sources */ = {
+		9A7E594ED3C988C1961251CB50758201 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C379A170E8301FF8F9115E2519F453 /* MBAgentable.swift in Sources */,
-				C26D7AD692CD7E68695AA454364E4BE5 /* MBRouter-dummy.m in Sources */,
-				8A08D92AC7FFB9A7C153FF5486ECC6B5 /* MBTargetMapper.swift in Sources */,
-				AA8E89327E8D2FFB06864885D6144FDB /* MBView.swift in Sources */,
-				C2BAC8F51D5DB5AF0089BB77 /* MBRoutable.swift in Sources */,
-				C0475BDDD4DB7678F19826A2A93C1812 /* MBWebable.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA36A06E6AA6CE8390933B2B91677E9F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF2C1F74FEF01FCA087899035311401F /* Routable-dummy.m in Sources */,
-				1553C98B42F7BA156F8F09C1E0BF3D2F /* Routable.m in Sources */,
+				57D00F1F11EC16E39379E3FF795B8FB7 /* MBAgentable.swift in Sources */,
+				18CE42CF82D07E046BD5E49B677A8545 /* MBRoutable.swift in Sources */,
+				75D1FFE36241ADD53FA3CED5236A52C5 /* MBRouter-dummy.m in Sources */,
+				13FFF8E4F6D2AF9625D8FC21610D3E09 /* MBTargetMapper.swift in Sources */,
+				89A3FA11F4B0630A77934ECE15B2E1C2 /* MBView.swift in Sources */,
+				AD612728276FB2875AD75A90DBE190CF /* MBWebable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AC8805304EE8AC1F08714E8E2966B417 /* PBXTargetDependency */ = {
+		0109BCAFD0BC983AD95610AA04B3E8B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = AAD9A4E70B5D4C8817EE641F0DC11ACA /* PBXContainerItemProxy */;
+			targetProxy = 40A6F94FE0855E52574119BEB5E3EDCB /* PBXContainerItemProxy */;
 		};
-		C2AF8840E74C6FA889B69297CAC080EC /* PBXTargetDependency */ = {
+		6333066B2101144145A7FC56A84A951F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = A657DBF040E4FB044EC217F87506E1F4 /* PBXContainerItemProxy */;
+			name = JLSwiftRouter;
+			target = DF9F195935241C1A29F1E472CCC3265A /* JLSwiftRouter */;
+			targetProxy = 388A36EDB219E18816F5D9557E66892F /* PBXContainerItemProxy */;
 		};
-		CB144A46F12101EF2A337F35413C4E90 /* PBXTargetDependency */ = {
+		8A746EC128D2E5DC761DA3B50C093B93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Routable;
-			target = 415275BAEAB8934839FFFC70584736CE /* Routable */;
-			targetProxy = F5C6C8969819F2D6C63259D50C142E71 /* PBXContainerItemProxy */;
+			name = JLSwiftRouter;
+			target = DF9F195935241C1A29F1E472CCC3265A /* JLSwiftRouter */;
+			targetProxy = 1137D79391FECBE04C3470712AB4CF67 /* PBXContainerItemProxy */;
 		};
-		DD3ABF12B5EBF00DBA5662EC9C7D8A22 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Routable;
-			target = 415275BAEAB8934839FFFC70584736CE /* Routable */;
-			targetProxy = 53648F6BDCDAD343E66F7CDFCDCF3E5B /* PBXContainerItemProxy */;
-		};
-		FD7DFB71EB8AE8A627E0DD6F3E1BAB7F /* PBXTargetDependency */ = {
+		C92D31778CAC9C20E2286E74506125AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBRouter;
-			target = 5D7662800CA7E6B947598B80C31E89D7 /* MBRouter */;
-			targetProxy = E8CFDFCDEA4F421FF47E3C86D9E08AFB /* PBXContainerItemProxy */;
+			target = 72033E1FF3B2B981B56A5470C4623CCD /* MBRouter */;
+			targetProxy = 83BE635A4BE7F92B49ED0FF948092021 /* PBXContainerItemProxy */;
+		};
+		CAB5EFFE61823DB3966615A22EFF620A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = F6E92FC9A692849F63453F43462CDB59 /* PBXContainerItemProxy */;
+		};
+		CDC9E6D4F3BEE1ACB3832E15816E4E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Routable;
+			target = 7F5857A353417C55EFD95FB0128ED9BF /* Routable */;
+			targetProxy = 1B6D125590FECC68A15FBF881931CF06 /* PBXContainerItemProxy */;
+		};
+		F73425B6591CE93879FD9231CC77C969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Routable;
+			target = 7F5857A353417C55EFD95FB0128ED9BF /* Routable */;
+			targetProxy = 47DE11A76DADC623C3BD46FE72D96AB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -684,9 +808,9 @@
 			};
 			name = Release;
 		};
-		1689D5209D8E48AEE50B54B41EFF9DC3 /* Release */ = {
+		13412967FDE6EA16CD6EF9DA61A7E87B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BF95F73483B20E93F4D25D52B1D7A3C /* Routable.xcconfig */;
+			baseConfigurationReference = 85477E576C2561048C1BAA9F49A0ECE2 /* JLSwiftRouter.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -695,74 +819,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Routable/Routable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Routable/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JLSwiftRouter/JLSwiftRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLSwiftRouter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Routable/Routable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Routable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		40676BFF77CAA0DF9DED40CF0605810E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD6D84FF892CD1FB25A1ED0063A02D6B /* Pods-MBRouter_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MBRouter_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MBRouter_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4A8C29C31809BB02CE85D4C5EBDC0EE7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 950F3736319251F15854B6925053CEBB /* Pods-MBRouter_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MBRouter_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/JLSwiftRouter/JLSwiftRouter.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MBRouter_Example;
+				PRODUCT_NAME = JLSwiftRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -771,6 +835,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		264BDE2F0D16C09EE32199F08F4B3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85477E576C2561048C1BAA9F49A0ECE2 /* JLSwiftRouter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLSwiftRouter/JLSwiftRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLSwiftRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLSwiftRouter/JLSwiftRouter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JLSwiftRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -811,9 +902,36 @@
 			};
 			name = Debug;
 		};
+		5C921C6520778D71F73C8B954C893AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5CE2ACE4AB428A1B8EDFD7F30F55B6 /* Routable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Routable/Routable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Routable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Routable/Routable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Routable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5FD8EAD4AD1A579D9E4C5A688CA63603 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B137647738896AE52BCE003432C41548 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 44913D0C5FA0B522C97F13F57DDD8D29 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -839,9 +957,9 @@
 			};
 			name = Debug;
 		};
-		854E6809ACD156FFA5FF4E6FD43558E2 /* Debug */ = {
+		90231FB8A34282601F6BB1FCF510C269 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BF95F73483B20E93F4D25D52B1D7A3C /* Routable.xcconfig */;
+			baseConfigurationReference = E9DAA4D7B6F85EEF74AF08ADAA70A74A /* MBRouter.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -850,23 +968,54 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Routable/Routable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Routable/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBRouter/MBRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBRouter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Routable/Routable.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MBRouter/MBRouter.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Routable;
+				PRODUCT_NAME = MBRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		96A11642CA4164DAD2F0B328D4754A59 /* Release */ = {
+		93896ACF64FF4A4A5E32FB9E2C6E5326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6D84FF892CD1FB25A1ED0063A02D6B /* Pods-MBRouter_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MBRouter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MBRouter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE7C3320B077858C945B29E9DD22039A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9DAA4D7B6F85EEF74AF08ADAA70A74A /* MBRouter.xcconfig */;
 			buildSettings = {
@@ -895,7 +1044,7 @@
 		};
 		D70B9CFCA2D128C965CEB6686DA9603D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B137647738896AE52BCE003432C41548 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 44913D0C5FA0B522C97F13F57DDD8D29 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -920,9 +1069,9 @@
 			};
 			name = Release;
 		};
-		F34ED1DC3C072DDA0A8AE70DA5131624 /* Debug */ = {
+		DB43359849F076C7516F1AD64E56AA5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9DAA4D7B6F85EEF74AF08ADAA70A74A /* MBRouter.xcconfig */;
+			baseConfigurationReference = 950F3736319251F15854B6925053CEBB /* Pods-MBRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -931,14 +1080,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBRouter/MBRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBRouter/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MBRouter_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBRouter/MBRouter.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MBRouter;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MBRouter_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -948,9 +1100,45 @@
 			};
 			name = Debug;
 		};
+		EDEBBFDA234F32D295D8A17E2D587723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5CE2ACE4AB428A1B8EDFD7F30F55B6 /* Routable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Routable/Routable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Routable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Routable/Routable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Routable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10A067F2C0934EB002B713ED76AF3085 /* Build configuration list for PBXNativeTarget "JLSwiftRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13412967FDE6EA16CD6EF9DA61A7E87B /* Debug */,
+				264BDE2F0D16C09EE32199F08F4B3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -969,29 +1157,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		768293668A10BC8E9CBAEA68B2F6E0CA /* Build configuration list for PBXNativeTarget "MBRouter" */ = {
+		6CD9B3B85FBE934F0CE530D23D4E740B /* Build configuration list for PBXNativeTarget "Routable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F34ED1DC3C072DDA0A8AE70DA5131624 /* Debug */,
-				96A11642CA4164DAD2F0B328D4754A59 /* Release */,
+				EDEBBFDA234F32D295D8A17E2D587723 /* Debug */,
+				5C921C6520778D71F73C8B954C893AC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87444147DEC81F2F92926D43E41310FC /* Build configuration list for PBXNativeTarget "Pods-MBRouter_Example" */ = {
+		8E66FE65AB22B56A26498796022D7372 /* Build configuration list for PBXNativeTarget "Pods-MBRouter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A8C29C31809BB02CE85D4C5EBDC0EE7 /* Debug */,
-				40676BFF77CAA0DF9DED40CF0605810E /* Release */,
+				DB43359849F076C7516F1AD64E56AA5E /* Debug */,
+				93896ACF64FF4A4A5E32FB9E2C6E5326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		954A8F5BCC481E8BD31CDFD0C17BB248 /* Build configuration list for PBXNativeTarget "Routable" */ = {
+		A79D212DE331B685F161F896B90BD1F5 /* Build configuration list for PBXNativeTarget "MBRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				854E6809ACD156FFA5FF4E6FD43558E2 /* Debug */,
-				1689D5209D8E48AEE50B54B41EFF9DC3 /* Release */,
+				90231FB8A34282601F6BB1FCF510C269 /* Debug */,
+				AE7C3320B077858C945B29E9DD22039A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

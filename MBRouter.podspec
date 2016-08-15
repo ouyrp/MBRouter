@@ -41,4 +41,5 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Routable', '~> 0.1.1'
   s.dependency 'Alamofire', '~> 3.4'
+  s.dependency 'JLSwiftRouter'
 end

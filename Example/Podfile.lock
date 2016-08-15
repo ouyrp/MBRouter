@@ -1,7 +1,9 @@
 PODS:
   - Alamofire (3.4.1)
+  - JLSwiftRouter (1.0.8)
   - MBRouter (0.1.0):
     - Alamofire (~> 3.4)
+    - JLSwiftRouter
     - Routable (~> 0.1.1)
   - Routable (0.1.1)
 
@@ -14,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
-  MBRouter: 1849ce053e2220031cb45ac63f62775ce7424552
+  JLSwiftRouter: 1e8f27e045685e076756dc3224e15f19fd37b61b
+  MBRouter: a995a1b4da46092be9aafa19a60553f0a6deb1d2
   Routable: 42731c7757b9b7ad32dd84d988b3d5428b966dfd
 
 COCOAPODS: 0.39.0

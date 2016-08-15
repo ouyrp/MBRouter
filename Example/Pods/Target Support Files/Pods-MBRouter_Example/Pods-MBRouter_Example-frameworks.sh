@@ -85,11 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-MBRouter_Example/Alamofire.framework"
+  install_framework "Pods-MBRouter_Example/JLSwiftRouter.framework"
   install_framework "Pods-MBRouter_Example/MBRouter.framework"
   install_framework "Pods-MBRouter_Example/Routable.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-MBRouter_Example/Alamofire.framework"
+  install_framework "Pods-MBRouter_Example/JLSwiftRouter.framework"
   install_framework "Pods-MBRouter_Example/MBRouter.framework"
   install_framework "Pods-MBRouter_Example/Routable.framework"
 fi
