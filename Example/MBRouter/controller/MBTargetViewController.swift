@@ -9,6 +9,8 @@
 import UIKit
 import Routable
 import MBRouter
+import React
+import SnapKit
 
 extension MBTargetViewController {
     static func allocWithRouterParams(routerParams:NSDictionary) -> AnyObject {
@@ -22,11 +24,14 @@ extension MBTargetViewController {
 }
 
 class MBTargetViewController: UIViewController {
+    
+    var rootView:RCTRootView? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        initRCTView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,5 +48,21 @@ class MBTargetViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func initRCTView() {
+        let jsIndex = NSURL(string: "http://localhost:8081/index.ios.bundle?platform=ios&dev=true")
+        
+        rootView = RCTRootView(bundleURL:jsIndex, moduleName:"SampleAppMovies", initialProperties:nil, launchOptions:nil)
+        
+        view.addSubview(rootView!)
+        
+        rootView!.snp_makeConstraints { (make) in
+            make.top.left.right.bottom.equalTo(view)
+        }
+    }
+    
+    deinit {
+        rootView = nil
+    }
 
 }

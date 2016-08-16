@@ -1,7 +1,22 @@
+source 'https://github.com/mmoaay/MBSpecs'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 target 'MBRouter_Example' do
   pod 'MBRouter', :path => '../'
-
-    
+  pod 'React', '0.31.0'
+  pod "React/RCTText"  
+  pod "React/RCTActionSheet"  
+  pod "React/RCTGeolocation"  
+  pod "React/RCTImage"  
+  pod "React/RCTLinkingIOS"  
+  pod "React/RCTNetwork"  
+  pod "React/RCTSettings"  
+  pod "React/RCTVibration"  
+  pod "React/RCTWebSocket" 
+  pod "SnapKit"  
 end
+
+
+
