@@ -5,45 +5,11 @@ PODS:
     - Alamofire (~> 3.4)
     - JLSwiftRouter
     - Routable (~> 0.1.1)
-  - React (0.31.0):
-    - React/Core (= 0.31.0)
-  - React/Core (0.31.0):
-    - React/CSSLayout
-  - React/CSSLayout (0.31.0)
-  - React/RCTActionSheet (0.31.0):
-    - React/Core
-  - React/RCTGeolocation (0.31.0):
-    - React/Core
-  - React/RCTImage (0.31.0):
-    - React/Core
-    - React/RCTNetwork
-  - React/RCTLinkingIOS (0.31.0):
-    - React/Core
-  - React/RCTNetwork (0.31.0):
-    - React/Core
-  - React/RCTSettings (0.31.0):
-    - React/Core
-  - React/RCTText (0.31.0):
-    - React/Core
-  - React/RCTVibration (0.31.0):
-    - React/Core
-  - React/RCTWebSocket (0.31.0):
-    - React/Core
   - Routable (0.1.1)
   - SnapKit (0.22.0)
 
 DEPENDENCIES:
   - MBRouter (from `../`)
-  - React (= 0.31.0)
-  - React/RCTActionSheet
-  - React/RCTGeolocation
-  - React/RCTImage
-  - React/RCTLinkingIOS
-  - React/RCTNetwork
-  - React/RCTSettings
-  - React/RCTText
-  - React/RCTVibration
-  - React/RCTWebSocket
   - SnapKit
 
 EXTERNAL SOURCES:
@@ -54,10 +20,7 @@ SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
   JLSwiftRouter: 1e8f27e045685e076756dc3224e15f19fd37b61b
   MBRouter: a995a1b4da46092be9aafa19a60553f0a6deb1d2
-  React: 5ff16b2d1c4e02c3c867589fbeb80003f5b5fecf
   Routable: 42731c7757b9b7ad32dd84d988b3d5428b966dfd
   SnapKit: 0dd2fd157330f1ea11fd84da13e6be8a7a22bae0
 
-PODFILE CHECKSUM: dc133d9615dbbb3cdc57e4e5b949221a253c2588
-
-COCOAPODS: 1.0.0
+COCOAPODS: 0.39.0

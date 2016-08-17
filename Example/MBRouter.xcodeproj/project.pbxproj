@@ -19,6 +19,16 @@
 		C2BAC8E11D5C755C0089BB77 /* MBTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAC8E01D5C755C0089BB77 /* MBTargetViewController.swift */; };
 		C2BAC8FB1D618B1B0089BB77 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = C2BAC8FA1D618B1B0089BB77 /* index.ios.js */; };
 		C2BAC9001D618B9A0089BB77 /* RCTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAC8FF1D618B9A0089BB77 /* RCTViewController.swift */; };
+		C2BAC9741D6445030089BB77 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC9281D6436300089BB77 /* libRCTActionSheet.a */; };
+		C2BAC9751D6445030089BB77 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC9341D64366E0089BB77 /* libRCTGeolocation.a */; };
+		C2BAC9761D6445030089BB77 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC93A1D6436750089BB77 /* libRCTImage.a */; };
+		C2BAC9771D6445030089BB77 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC9401D6436830089BB77 /* libRCTLinking.a */; };
+		C2BAC9781D6445030089BB77 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC9461D64368B0089BB77 /* libRCTNetwork.a */; };
+		C2BAC9791D6445030089BB77 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC94C1D6436960089BB77 /* libRCTSettings.a */; };
+		C2BAC97A1D6445030089BB77 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC9521D64369D0089BB77 /* libRCTText.a */; };
+		C2BAC97B1D6445030089BB77 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC9581D6436A20089BB77 /* libRCTVibration.a */; };
+		C2BAC97C1D6445030089BB77 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC95E1D6436A90089BB77 /* libRCTWebSocket.a */; };
+		C2BAC97D1D6445030089BB77 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BAC9221D6436200089BB77 /* libReact.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +38,76 @@
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = MBRouter;
+		};
+		C2BAC9211D6436200089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC91D1D6436200089BB77 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		C2BAC9271D6436300089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9231D64362F0089BB77 /* RCTActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTActionSheet;
+		};
+		C2BAC9331D64366E0089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC92F1D64366E0089BB77 /* RCTGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTGeolocation;
+		};
+		C2BAC9391D6436750089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9351D6436750089BB77 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		C2BAC93F1D6436830089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC93B1D6436830089BB77 /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTLinking;
+		};
+		C2BAC9451D64368B0089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9411D64368B0089BB77 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		C2BAC94B1D6436960089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9471D6436960089BB77 /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTSettings;
+		};
+		C2BAC9511D64369D0089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC94D1D64369C0089BB77 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		C2BAC9571D6436A20089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9531D6436A20089BB77 /* RCTVibration.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
+			remoteInfo = RCTVibration;
+		};
+		C2BAC95D1D6436A90089BB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9591D6436A90089BB77 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +131,16 @@
 		C2BAC8E01D5C755C0089BB77 /* MBTargetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTargetViewController.swift; sourceTree = "<group>"; };
 		C2BAC8FA1D618B1B0089BB77 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
 		C2BAC8FF1D618B9A0089BB77 /* RCTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTViewController.swift; sourceTree = "<group>"; };
+		C2BAC91D1D6436200089BB77 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		C2BAC9231D64362F0089BB77 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
+		C2BAC92F1D64366E0089BB77 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
+		C2BAC9351D6436750089BB77 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
+		C2BAC93B1D6436830089BB77 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		C2BAC9411D64368B0089BB77 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		C2BAC9471D6436960089BB77 /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
+		C2BAC94D1D64369C0089BB77 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		C2BAC9531D6436A20089BB77 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
+		C2BAC9591D6436A90089BB77 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		E1DDA6C38FC69A72650057AF /* Pods-MBRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EE1BD3FAF2405CA4BED8E8F4 /* Pods-MBRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +150,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2BAC9741D6445030089BB77 /* libRCTActionSheet.a in Frameworks */,
+				C2BAC9751D6445030089BB77 /* libRCTGeolocation.a in Frameworks */,
+				C2BAC9761D6445030089BB77 /* libRCTImage.a in Frameworks */,
+				C2BAC9771D6445030089BB77 /* libRCTLinking.a in Frameworks */,
+				C2BAC9781D6445030089BB77 /* libRCTNetwork.a in Frameworks */,
+				C2BAC9791D6445030089BB77 /* libRCTSettings.a in Frameworks */,
+				C2BAC97A1D6445030089BB77 /* libRCTText.a in Frameworks */,
+				C2BAC97B1D6445030089BB77 /* libRCTVibration.a in Frameworks */,
+				C2BAC97C1D6445030089BB77 /* libRCTWebSocket.a in Frameworks */,
+				C2BAC97D1D6445030089BB77 /* libReact.a in Frameworks */,
 				433769697C0F4F71A3DC59C1 /* Pods_MBRouter_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +177,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				C2BAC9161D6435C60089BB77 /* React */,
 				C2BAC8FA1D618B1B0089BB77 /* index.ios.js */,
 				C2BAC8F91D618AC80089BB77 /* Components */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
@@ -174,6 +275,103 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		C2BAC9161D6435C60089BB77 /* React */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC9591D6436A90089BB77 /* RCTWebSocket.xcodeproj */,
+				C2BAC9531D6436A20089BB77 /* RCTVibration.xcodeproj */,
+				C2BAC94D1D64369C0089BB77 /* RCTText.xcodeproj */,
+				C2BAC9471D6436960089BB77 /* RCTSettings.xcodeproj */,
+				C2BAC9411D64368B0089BB77 /* RCTNetwork.xcodeproj */,
+				C2BAC93B1D6436830089BB77 /* RCTLinking.xcodeproj */,
+				C2BAC9351D6436750089BB77 /* RCTImage.xcodeproj */,
+				C2BAC92F1D64366E0089BB77 /* RCTGeolocation.xcodeproj */,
+				C2BAC9231D64362F0089BB77 /* RCTActionSheet.xcodeproj */,
+				C2BAC91D1D6436200089BB77 /* React.xcodeproj */,
+			);
+			name = React;
+			sourceTree = "<group>";
+		};
+		C2BAC91E1D6436200089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC9221D6436200089BB77 /* libReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BAC9241D64362F0089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC9281D6436300089BB77 /* libRCTActionSheet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BAC9301D64366E0089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC9341D64366E0089BB77 /* libRCTGeolocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BAC9361D6436750089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC93A1D6436750089BB77 /* libRCTImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BAC93C1D6436830089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC9401D6436830089BB77 /* libRCTLinking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BAC9421D64368B0089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC9461D64368B0089BB77 /* libRCTNetwork.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BAC9481D6436960089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC94C1D6436960089BB77 /* libRCTSettings.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BAC94E1D64369C0089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC9521D64369D0089BB77 /* libRCTText.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BAC9541D6436A20089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC9581D6436A20089BB77 /* libRCTVibration.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BAC95A1D6436A90089BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAC95E1D6436A90089BB77 /* libRCTWebSocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C6FF97BD9BA712D2064193F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +396,8 @@
 				13B2A9353C5C96D0DF4CA978 /* [CP] Copy Pods Resources */,
 				24243276049191911E65398A /* 📦 Embed Pods Frameworks */,
 				2F60F6B53B7DDE334F1D854C /* 📦 Copy Pods Resources */,
+				DFF55ED762BEBE868C0FF893 /* Embed Pods Frameworks */,
+				C2BAC9691D6436DE0089BB77 /* Bundle React Native code and images */,
 			);
 			buildRules = (
 			);
@@ -256,6 +456,48 @@
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C2BAC9241D64362F0089BB77 /* Products */;
+					ProjectRef = C2BAC9231D64362F0089BB77 /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = C2BAC9301D64366E0089BB77 /* Products */;
+					ProjectRef = C2BAC92F1D64366E0089BB77 /* RCTGeolocation.xcodeproj */;
+				},
+				{
+					ProductGroup = C2BAC9361D6436750089BB77 /* Products */;
+					ProjectRef = C2BAC9351D6436750089BB77 /* RCTImage.xcodeproj */;
+				},
+				{
+					ProductGroup = C2BAC93C1D6436830089BB77 /* Products */;
+					ProjectRef = C2BAC93B1D6436830089BB77 /* RCTLinking.xcodeproj */;
+				},
+				{
+					ProductGroup = C2BAC9421D64368B0089BB77 /* Products */;
+					ProjectRef = C2BAC9411D64368B0089BB77 /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = C2BAC9481D6436960089BB77 /* Products */;
+					ProjectRef = C2BAC9471D6436960089BB77 /* RCTSettings.xcodeproj */;
+				},
+				{
+					ProductGroup = C2BAC94E1D64369C0089BB77 /* Products */;
+					ProjectRef = C2BAC94D1D64369C0089BB77 /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = C2BAC9541D6436A20089BB77 /* Products */;
+					ProjectRef = C2BAC9531D6436A20089BB77 /* RCTVibration.xcodeproj */;
+				},
+				{
+					ProductGroup = C2BAC95A1D6436A90089BB77 /* Products */;
+					ProjectRef = C2BAC9591D6436A90089BB77 /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = C2BAC91E1D6436200089BB77 /* Products */;
+					ProjectRef = C2BAC91D1D6436200089BB77 /* React.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* MBRouter_Example */,
@@ -263,6 +505,79 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C2BAC9221D6436200089BB77 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = C2BAC9211D6436200089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2BAC9281D6436300089BB77 /* libRCTActionSheet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTActionSheet.a;
+			remoteRef = C2BAC9271D6436300089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2BAC9341D64366E0089BB77 /* libRCTGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTGeolocation.a;
+			remoteRef = C2BAC9331D64366E0089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2BAC93A1D6436750089BB77 /* libRCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImage.a;
+			remoteRef = C2BAC9391D6436750089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2BAC9401D6436830089BB77 /* libRCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTLinking.a;
+			remoteRef = C2BAC93F1D6436830089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2BAC9461D64368B0089BB77 /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = C2BAC9451D64368B0089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2BAC94C1D6436960089BB77 /* libRCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTSettings.a;
+			remoteRef = C2BAC94B1D6436960089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2BAC9521D64369D0089BB77 /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = C2BAC9511D64369D0089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2BAC9581D6436A20089BB77 /* libRCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVibration.a;
+			remoteRef = C2BAC9571D6436A20089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2BAC95E1D6436A90089BB77 /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = C2BAC95D1D6436A90089BB77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		607FACCE1AFB9204008FA782 /* Resources */ = {
@@ -374,6 +689,35 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2BAC9691D6436DE0089BB77 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n./node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		DFF55ED762BEBE868C0FF893 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -520,14 +864,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = MBRouter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"JLSwiftRouter\"",
+					"-framework",
+					"\"MBRouter\"",
+					"-framework",
+					"\"Routable\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -537,14 +900,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = MBRouter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"JLSwiftRouter\"",
+					"-framework",
+					"\"MBRouter\"",
+					"-framework",
+					"\"Routable\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

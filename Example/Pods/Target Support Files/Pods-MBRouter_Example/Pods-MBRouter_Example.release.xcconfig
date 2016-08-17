@@ -1,10 +1,8 @@
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Alamofire" "$PODS_CONFIGURATION_BUILD_DIR/JLSwiftRouter" "$PODS_CONFIGURATION_BUILD_DIR/MBRouter" "$PODS_CONFIGURATION_BUILD_DIR/React" "$PODS_CONFIGURATION_BUILD_DIR/Routable" "$PODS_CONFIGURATION_BUILD_DIR/SnapKit"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Alamofire/Alamofire.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JLSwiftRouter/JLSwiftRouter.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MBRouter/MBRouter.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/React/React.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Routable/Routable.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SnapKit/SnapKit.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "JLSwiftRouter" -framework "MBRouter" -framework "React" -framework "Routable" -framework "SnapKit"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Alamofire.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/JLSwiftRouter.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MBRouter.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Routable.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SnapKit.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "JLSwiftRouter" -framework "MBRouter" -framework "Routable" -framework "SnapKit"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
-PODS_BUILD_DIR = $BUILD_DIR
-PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MBRouter_Example
 PODS_ROOT = ${SRCROOT}/Pods
