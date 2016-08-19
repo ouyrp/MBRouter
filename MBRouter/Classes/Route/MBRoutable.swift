@@ -9,10 +9,6 @@
 import Foundation
 import Routable
 
-public let NATIVEFILLEDPARAM = "_nativefilledparam"
-public let AGENTCALLBACK = "agentcallback"
-public let TARGET = "target"
-
 public enum MBRouteType {
     case Native(url:String)
     case AgentNative(params:[String : String], target:String)
