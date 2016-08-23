@@ -41,18 +41,18 @@ extension NSURL {
         var type = ""
         
         if let items = query?.componentsSeparatedByString("&") {
-            for item in items {
-                let keyAndValue = item.componentsSeparatedByString("=")
-                if  2 == keyAndValue.count {
-                    if "target" == keyAndValue[0] {
-                        target = keyAndValue[1]
-                    } else if "type" == keyAndValue[0] {
-                        type = keyAndValue[1]
-                    } else {
-                        params[keyAndValue[0]] = keyAndValue[1]
-                    }
+        for item in items {
+            let keyAndValue = item.componentsSeparatedByString("=")
+            if  2 == keyAndValue.count {
+                if MBConfig.config().get(.URLFIELDTARGET) == keyAndValue[0] {
+                    target = keyAndValue[1]
+                } else if MBConfig.config().get(.URLFIELDTYPE) == keyAndValue[0] {
+                    type = keyAndValue[1]
+                } else {
+                    params[keyAndValue[0]] = keyAndValue[1]
                 }
             }
+        }
         }
         return (type:type, target:target, params:params)
     }

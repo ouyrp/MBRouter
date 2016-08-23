@@ -18,15 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        Routable.sharedRouter().map("target/:title", toController: MBTargetViewController.classForCoder())
-        Routable.sharedRouter().map("agent/:title", toController: MBAgentViewController.classForCoder(), withOptions: UPRouterOptions.modal().withPresentationStyle(.FullScreen))
-        Routable.sharedRouter().map("web/:title", toController: MBAgentViewController.classForCoder(), withOptions: UPRouterOptions.modal().withPresentationStyle(.FullScreen))
+
+        MBRouter.router().map("target/:title", target: "MBRouter_Example.MBTargetViewController")
+        MBRouter.router().map("agent/:", params: (web: "name", native: "title"), agent: "MBRouter_Example.MBAgentViewController", target: "MBRouter_Example.MBTargetViewController")
+        MBRouter.router().map("web/:", params: (web: "name", native: "title"), agent: "MBRouter_Example.MBAgentViewController")
         
         if let nav = window?.rootViewController as? UINavigationController {
-            Routable.sharedRouter().navigationController = nav
+            MBRouter.router().setNav(nav)
         }
-        
-        MBTargetMapper.shareInstance().add("agent", target: "MBRouter_Example.MBTargetViewController")
+
         return true
     }
 

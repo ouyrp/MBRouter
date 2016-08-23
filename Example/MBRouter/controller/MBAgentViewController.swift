@@ -7,21 +7,28 @@
 //
 
 import UIKit
-import Routable
+import MBRouter
 
-extension MBAgentViewController {
+extension MBAgentViewController: MBTargetable {
     static func allocWithRouterParams(routerParams:NSDictionary) -> AnyObject {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyBoard.instantiateViewControllerWithIdentifier("MBAgentViewController")
         return controller
+    }
+    
+    static func verify () -> Bool {
+        return true
     }
 }
 
 class MBAgentViewController: UIViewController {
 
     @IBAction func closePressed(sender: AnyObject) {
-        Routable.sharedRouter().open("agentcallbackagent/AgentTarget")
-//        Routable.sharedRouter().open("agentcallbackweb/AgentTarget")
+        
+        MBRouter.router().open(MBConfig.config().get(.URICALLBACKPREFIX) + "agent/:title", url: MBConfig.config().get(.URICALLBACKPREFIX) + "agent/AgentTarget")
+        
+        MBRouter.router().open(MBConfig.config().get(.URICALLBACKPREFIX) + "web/:title", url: MBConfig.config().get(.URICALLBACKPREFIX) + "web/AgentTarget")
+        
         self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
 }

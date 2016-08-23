@@ -12,9 +12,12 @@ public enum MBConfigType: String {
     case URLFIELDTARGET = "target"
     case URLFIELDTYPE = "type"
     
-    case URLFIELDNATIVEFILLEDPARAM = "nativefilledparam"
-    case URIAGENTCALLBACKPREFIX = "agentcallback"
-    case URIAGENTTARGETPREFIX = "agenttarget"
+    case URLFIELDFILLTYPENATIVE = "nativefilledparam"
+    case URLFIELDFILLTYPEWEB = "webfilledparam"
+    
+    case URICALLBACKPREFIX = "callbackprefix-"
+    case URITARGETPREFIX = "targetprefix-"
+    case URINORMALPREFIX = "normalprefix-"
     
     case ULRFIELDTYPEWEB = "web"
     case ULRFIELDTYPENATIVE = "native"
@@ -24,7 +27,7 @@ public enum MBConfigType: String {
 
 
 public class MBConfig {
-    public class func shareInstance() -> MBConfig{
+    public class func config() -> MBConfig{
         struct MBSingleton{
             static var predicate:dispatch_once_t = 0
             static var instance:MBConfig? = nil
@@ -36,27 +39,31 @@ public class MBConfig {
         return MBSingleton.instance!
     }
     
-    private var config:[MBConfigType : String] = [:]
+    private var configs:[MBConfigType:String] = [:]
     
-    func set(type:MBConfigType, value:String) {
-        config[type] = value
+    public func set(type:MBConfigType, value:String) {
+        configs[type] = value
     }
     
-    func get (type:MBConfigType) -> String {
-        return config[type]!
+    public func get(type:MBConfigType) -> String {
+        return configs[type]!
     }
     
-    init() {
-        config[.URLFIELDTARGET] = MBConfigType.URLFIELDTARGET.rawValue
-        config[.URLFIELDTYPE] = MBConfigType.URLFIELDTYPE.rawValue
-        config[.URLFIELDNATIVEFILLEDPARAM] = MBConfigType.URLFIELDNATIVEFILLEDPARAM.rawValue
-        config[.URIAGENTCALLBACKPREFIX] = MBConfigType.URIAGENTCALLBACKPREFIX.rawValue
-        config[.URIAGENTTARGETPREFIX] = MBConfigType.URIAGENTTARGETPREFIX.rawValue
+    private init() {
+        configs[.URLFIELDTARGET] = MBConfigType.URLFIELDTARGET.rawValue
+        configs[.URLFIELDTYPE] = MBConfigType.URLFIELDTYPE.rawValue
         
-        config[.ULRFIELDTYPEWEB] = MBConfigType.ULRFIELDTYPEWEB.rawValue
-        config[.ULRFIELDTYPENATIVE] = MBConfigType.ULRFIELDTYPENATIVE.rawValue
-        config[.ULRFIELDTYPEAGENTNATIVE] = MBConfigType.ULRFIELDTYPEAGENTNATIVE.rawValue
-        config[.ULRFIELDTYPEAGENTWEB] = MBConfigType.ULRFIELDTYPEAGENTWEB.rawValue
+        configs[.URLFIELDFILLTYPENATIVE] = MBConfigType.URLFIELDFILLTYPENATIVE.rawValue
+        configs[.URLFIELDFILLTYPEWEB] = MBConfigType.URLFIELDFILLTYPEWEB.rawValue
+        
+        configs[.URICALLBACKPREFIX] = MBConfigType.URICALLBACKPREFIX.rawValue
+        configs[.URITARGETPREFIX] = MBConfigType.URITARGETPREFIX.rawValue
+        configs[.URINORMALPREFIX] = MBConfigType.URINORMALPREFIX.rawValue
+        
+        configs[.ULRFIELDTYPEWEB] = MBConfigType.ULRFIELDTYPEWEB.rawValue
+        configs[.ULRFIELDTYPENATIVE] = MBConfigType.ULRFIELDTYPENATIVE.rawValue
+        configs[.ULRFIELDTYPEAGENTNATIVE] = MBConfigType.ULRFIELDTYPEAGENTNATIVE.rawValue
+        configs[.ULRFIELDTYPEAGENTWEB] = MBConfigType.ULRFIELDTYPEAGENTWEB.rawValue
     }
 }
 

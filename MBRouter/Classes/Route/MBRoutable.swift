@@ -10,7 +10,7 @@ import Foundation
 import Routable
 
 public enum MBRouteType {
-    case Native(url:String)
+    case Native(params:[String : String], target:String)
     case AgentNative(params:[String : String], target:String)
     case AgentWeb(params:[String : String], target:String, webView:UIWebView, request:NSURLRequest)
     case Web
@@ -18,29 +18,35 @@ public enum MBRouteType {
     
     func route() -> Bool {
         switch self {
-        case .Native(let url):
-            Routable.sharedRouter().open(url)
+        case .Native(let params, let target):
+            MBRouter.router().open(MBConfig.config().get(.URINORMALPREFIX) + params.routeURI(target), url: MBConfig.config().get(.URINORMALPREFIX) + params.routeURL(target))
             return false
         case .AgentNative(let params, let target):
-            if let controller = MBTargetMapper.shareInstance().get(target) {
-                Routable.sharedRouter().open(params.routeURL(target).agent)
-                let format = AGENTCALLBACK + params.routeURI(target).agent
-                Routable.sharedRouter().map(format, toCallback: { (agentparams:[NSObject : AnyObject]!) in
-                    let uri = TARGET + params.routeURI(target).origin + agentparams.routeURI("")
-                    Routable.sharedRouter().map(uri, toController: controller)
-                    let url = TARGET + params.routeURL(target).origin + agentparams.routeURL("")
-                    Routable.sharedRouter().open(url)
-                })
-                return false
-            } else {
-                return true
-            }
+            
+            MBRouter.router().open(MBConfig.config().get(.URINORMALPREFIX) + params.routeURI(target).native, url: MBConfig.config().get(.URINORMALPREFIX) + params.routeURL(target).native)
+            
+            MBRouter.router().setEnabled(MBConfig.config().get(.URICALLBACKPREFIX) + params.routeURI(target).native, enabled: true)
+            
+            Routable.sharedRouter().map(MBConfig.config().get(.URICALLBACKPREFIX) + params.routeURI(target).native, toCallback: { (nativeparams:[NSObject : AnyObject]!) in
+                
+                MBRouter.router().setEnabled(MBConfig.config().get(.URICALLBACKPREFIX) + params.routeURI(target).native, enabled: false)
+                
+                MBRouter.router().open(MBConfig.config().get(.URITARGETPREFIX) + params.routeURI(target).web + nativeparams.routeURI(""), url: MBConfig.config().get(.URITARGETPREFIX) + params.routeURL(target).web + nativeparams.routeURL(""))
+            })
+            
+            return false
         case .Web:
             return true
         case .AgentWeb(let params, let target, let webView, let request):
-            Routable.sharedRouter().open(params.routeURI(target).agent)
-            let format = AGENTCALLBACK + params.routeURI(target).agent
-            Routable.sharedRouter().map(format, toCallback: { (params:[NSObject : AnyObject]!) in
+            
+            MBRouter.router().open(MBConfig.config().get(.URINORMALPREFIX) + params.routeURI(target).native, url: MBConfig.config().get(.URINORMALPREFIX) + params.routeURL(target).native)
+            
+            MBRouter.router().setEnabled(MBConfig.config().get(.URICALLBACKPREFIX) + params.routeURI(target).native, enabled: true)
+            
+            Routable.sharedRouter().map(MBConfig.config().get(.URICALLBACKPREFIX) + params.routeURI(target).native, toCallback: { (nativeparams:[NSObject : AnyObject]!) in
+                
+                MBRouter.router().setEnabled(MBConfig.config().get(.URICALLBACKPREFIX) + params.routeURI(target).native, enabled: false)
+                
                 webView.loadRequest(request.targetRequest(params))
             })
             return false
@@ -50,13 +56,13 @@ public enum MBRouteType {
     }
     
     init(type:String, params:[String : String], target:String, webView:UIWebView, request:NSURLRequest) {
-        if "native" == type && "" != params.routeURL(target) {
-            self = .Native(url: params.routeURL(target))
-        } else if "agentnative" == type && "" != target{
+        if MBConfig.config().get(.ULRFIELDTYPENATIVE) == type && false == target.isEmpty {
+            self = .Native(params: params, target:target)
+        } else if MBConfig.config().get(.ULRFIELDTYPEAGENTNATIVE) == type && false == target.isEmpty {
             self = .AgentNative(params: params, target: target)
-        } else if "web" == type {
+        } else if MBConfig.config().get(.ULRFIELDTYPEWEB) == type {
             self = .Web
-        } else if "agentweb" == type && "" != request {
+        } else if MBConfig.config().get(.ULRFIELDTYPEAGENTWEB) == type && false == target.isEmpty {
             self = .AgentWeb(params: params, target: target, webView:webView, request:request)
         } else {
             self = .None
@@ -65,44 +71,44 @@ public enum MBRouteType {
 }
 
 extension Dictionary {
-    public func routeURI(target:String) -> (origin:String, agent:String) {
-        var agent = ""
-        var origin = ""
+    public func routeURI(target:String) -> (web:String, native:String) {
+        var web = ""
+        var native = ""
         
-        agent += target
-        origin += target
+        web += target
+        native += target
         
         for key in self.keys {
             if let keyName = key as? String {
                 if let value = self[key] as? String {
-                    if NATIVEFILLEDPARAM == value {
-                        agent += "/:" + keyName
+                    if MBConfig.config().get(.URLFIELDFILLTYPENATIVE) == value {
+                        native += "/:" + keyName
                     } else {
-                        origin += "/:" + keyName
+                        web += "/:" + keyName
                     }
                 }
             }
         }
-        return (origin:origin, agent:agent)
+        return (web:web, native:native)
     }
     
-    public func routeURL(target:String) -> (origin:String, agent:String) {
-        var agent = ""
-        var origin = ""
+    public func routeURL(target:String) -> (web:String, native:String) {
+        var web = ""
+        var native = ""
         
-        agent += target
-        origin += target
+        web += target
+        native += target
         
         for key in self.keys {
             if let value = self[key] as? String {
-                if NATIVEFILLEDPARAM == value {
-                    agent += "/" + value
+                if MBConfig.config().get(.URLFIELDFILLTYPENATIVE) == value {
+                    native += "/" + value
                 } else {
-                    origin += "/" + value
+                    web += "/" + value
                 }
             }
         }
-        return (origin:origin, agent:agent)
+        return (web:web, native:native)
     }
     
     public func routeURL(target:String) -> String {

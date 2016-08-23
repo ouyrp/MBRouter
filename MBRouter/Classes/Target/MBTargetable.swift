@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol MBTargetable {
+public protocol MBTargetable {
     static func verify() -> Bool
     static func allocWithRouterParams(routerParams:NSDictionary) -> AnyObject
 }

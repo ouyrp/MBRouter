@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		433769697C0F4F71A3DC59C1 /* Pods_MBRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B09F4A3437D35E9856488CD /* Pods_MBRouter_Example.framework */; };
+		3971E531A5318F8B255C928F /* Pods_MBRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574F08F6B30D8C8D0403B20C /* Pods_MBRouter_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -38,6 +38,69 @@
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = MBRouter;
+		};
+		855499E51D6C2BFF0009DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC91D1D6436200089BB77 /* React.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CBBA2D1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		855499F11D6C2C180009DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9591D6436A90089BB77 /* RCTWebSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C86DF451ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		855499F31D6C2C180009DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9531D6436A20089BB77 /* RCTVibration.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 832C817F1AAF6DEF007FA2F7;
+			remoteInfo = RCTVibration;
+		};
+		855499F51D6C2C180009DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC94D1D64369C0089BB77 /* RCTText.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B5119A1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		855499F71D6C2C180009DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9471D6436960089BB77 /* RCTSettings.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B511DA1A9E6C8500147676;
+			remoteInfo = RCTSettings;
+		};
+		855499F91D6C2C180009DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9411D64368B0089BB77 /* RCTNetwork.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B511DA1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		855499FB1D6C2C180009DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC93B1D6436830089BB77 /* RCTLinking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B511DA1A9E6C8500147676;
+			remoteInfo = RCTLinking;
+		};
+		855499FD1D6C2C180009DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC9351D6436750089BB77 /* RCTImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B5115C1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		855499FF1D6C2C180009DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BAC92F1D64366E0089BB77 /* RCTGeolocation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B511DA1A9E6C8500147676;
+			remoteInfo = RCTGeolocation;
 		};
 		C2BAC9211D6436200089BB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -114,6 +177,7 @@
 /* Begin PBXFileReference section */
 		03C3DBE512234B44BDEED312 /* MBRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MBRouter.podspec; path = ../MBRouter.podspec; sourceTree = "<group>"; };
 		1ED8ED24FCE07F61164C6B91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		574F08F6B30D8C8D0403B20C /* Pods_MBRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MBRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,8 +187,9 @@
 		607FACE51AFB9204008FA782 /* MBRouter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBRouter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B09F4A3437D35E9856488CD /* Pods_MBRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		855499B01D6C29960009DE19 /* MBRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBRouter.framework; path = "../../../../Library/Developer/Xcode/DerivedData/MBRouter-eremysjpitceofgoasmsxohjmltv/Build/Products/Debug-iphonesimulator/MBRouter/MBRouter.framework"; sourceTree = "<group>"; };
 		96AC1F26D1DBA5418539E8FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B39F11CCAC1F8798223C0575 /* Pods-MBRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C2BAC8DA1D5C741A0089BB77 /* MBAgentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBAgentViewController.swift; sourceTree = "<group>"; };
 		C2BAC8DB1D5C741A0089BB77 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2BAC8DE1D5C748B0089BB77 /* MBAgentNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBAgentNavViewController.swift; sourceTree = "<group>"; };
@@ -141,8 +206,7 @@
 		C2BAC94D1D64369C0089BB77 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		C2BAC9531D6436A20089BB77 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
 		C2BAC9591D6436A90089BB77 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		E1DDA6C38FC69A72650057AF /* Pods-MBRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EE1BD3FAF2405CA4BED8E8F4 /* Pods-MBRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF1109446C249BEB3053074 /* Pods-MBRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +224,7 @@
 				C2BAC97B1D6445030089BB77 /* libRCTVibration.a in Frameworks */,
 				C2BAC97C1D6445030089BB77 /* libRCTWebSocket.a in Frameworks */,
 				C2BAC97D1D6445030089BB77 /* libReact.a in Frameworks */,
-				433769697C0F4F71A3DC59C1 /* Pods_MBRouter_Example.framework in Frameworks */,
+				3971E531A5318F8B255C928F /* Pods_MBRouter_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +238,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F6725FDE827D9CA0F2B8A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				855499B01D6C29960009DE19 /* MBRouter.framework */,
+				574F08F6B30D8C8D0403B20C /* Pods_MBRouter_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -184,8 +257,8 @@
 				607FACD21AFB9204008FA782 /* Example for MBRouter */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				74E59A1881C71A71F878F09F /* Pods */,
-				C6FF97BD9BA712D2064193F4 /* Frameworks */,
+				EDA2B96DFCC379CEE5FC35D8 /* Pods */,
+				2F6725FDE827D9CA0F2B8A92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -245,15 +318,6 @@
 				96AC1F26D1DBA5418539E8FB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		74E59A1881C71A71F878F09F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EE1BD3FAF2405CA4BED8E8F4 /* Pods-MBRouter_Example.debug.xcconfig */,
-				E1DDA6C38FC69A72650057AF /* Pods-MBRouter_Example.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		C2BAC8D91D5C74000089BB77 /* controller */ = {
@@ -372,12 +436,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6FF97BD9BA712D2064193F4 /* Frameworks */ = {
+		EDA2B96DFCC379CEE5FC35D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6B09F4A3437D35E9856488CD /* Pods_MBRouter_Example.framework */,
+				EDF1109446C249BEB3053074 /* Pods-MBRouter_Example.debug.xcconfig */,
+				B39F11CCAC1F8798223C0575 /* Pods-MBRouter_Example.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,21 +452,26 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MBRouter_Example" */;
 			buildPhases = (
-				C158DFF167D1B0EF5332CEC5 /* 📦 Check Pods Manifest.lock */,
 				47D33DD618C1CEB6D3367F28 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				A35CFB0D710A270BD20D0CE7 /* [CP] Embed Pods Frameworks */,
 				13B2A9353C5C96D0DF4CA978 /* [CP] Copy Pods Resources */,
-				24243276049191911E65398A /* 📦 Embed Pods Frameworks */,
-				2F60F6B53B7DDE334F1D854C /* 📦 Copy Pods Resources */,
-				DFF55ED762BEBE868C0FF893 /* Embed Pods Frameworks */,
 				C2BAC9691D6436DE0089BB77 /* Bundle React Native code and images */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				855499F21D6C2C180009DE19 /* PBXTargetDependency */,
+				855499F41D6C2C180009DE19 /* PBXTargetDependency */,
+				855499F61D6C2C180009DE19 /* PBXTargetDependency */,
+				855499F81D6C2C180009DE19 /* PBXTargetDependency */,
+				855499FA1D6C2C180009DE19 /* PBXTargetDependency */,
+				855499FC1D6C2C180009DE19 /* PBXTargetDependency */,
+				855499FE1D6C2C180009DE19 /* PBXTargetDependency */,
+				85549A001D6C2C180009DE19 /* PBXTargetDependency */,
+				855499E61D6C2BFF0009DE19 /* PBXTargetDependency */,
 			);
 			name = MBRouter_Example;
 			productName = MBRouter;
@@ -438,6 +508,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = J3TA3RL75G;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -616,36 +687,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		24243276049191911E65398A /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2F60F6B53B7DDE334F1D854C /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		47D33DD618C1CEB6D3367F28 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -676,21 +717,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C158DFF167D1B0EF5332CEC5 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		C2BAC9691D6436DE0089BB77 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -704,21 +730,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n./node_modules/react-native/packager/react-native-xcode.sh";
-		};
-		DFF55ED762BEBE868C0FF893 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBRouter_Example/Pods-MBRouter_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -751,6 +762,51 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* MBRouter_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		855499E61D6C2BFF0009DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = React;
+			targetProxy = 855499E51D6C2BFF0009DE19 /* PBXContainerItemProxy */;
+		};
+		855499F21D6C2C180009DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTWebSocket;
+			targetProxy = 855499F11D6C2C180009DE19 /* PBXContainerItemProxy */;
+		};
+		855499F41D6C2C180009DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTVibration;
+			targetProxy = 855499F31D6C2C180009DE19 /* PBXContainerItemProxy */;
+		};
+		855499F61D6C2C180009DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTText;
+			targetProxy = 855499F51D6C2C180009DE19 /* PBXContainerItemProxy */;
+		};
+		855499F81D6C2C180009DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTSettings;
+			targetProxy = 855499F71D6C2C180009DE19 /* PBXContainerItemProxy */;
+		};
+		855499FA1D6C2C180009DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTNetwork;
+			targetProxy = 855499F91D6C2C180009DE19 /* PBXContainerItemProxy */;
+		};
+		855499FC1D6C2C180009DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTLinking;
+			targetProxy = 855499FB1D6C2C180009DE19 /* PBXContainerItemProxy */;
+		};
+		855499FE1D6C2C180009DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTImage;
+			targetProxy = 855499FD1D6C2C180009DE19 /* PBXContainerItemProxy */;
+		};
+		85549A001D6C2C180009DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTGeolocation;
+			targetProxy = 855499FF1D6C2C180009DE19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -860,10 +916,12 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE1BD3FAF2405CA4BED8E8F4 /* Pods-MBRouter_Example.debug.xcconfig */;
+			baseConfigurationReference = EDF1109446C249BEB3053074 /* Pods-MBRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(inherited)",
@@ -896,10 +954,12 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1DDA6C38FC69A72650057AF /* Pods-MBRouter_Example.release.xcconfig */;
+			baseConfigurationReference = B39F11CCAC1F8798223C0575 /* Pods-MBRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(inherited)",
